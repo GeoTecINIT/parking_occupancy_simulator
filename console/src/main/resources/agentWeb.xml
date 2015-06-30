@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ConfigsXML>
+	<Profiles>
+		<Type>Estudiante</Type>
+		<Amount>1</Amount>
+		<Repetition>Sunday</Repetition>
+		<MaxWalkingDistance UpLimit="100" DownLimit="80"/> <!-- Random between those limits -->
+		<StartTime>
+		    <Time weekDay="0" hour="8" minute="05" second="0"/>
+			<TimeRandomizer>
+				<UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+				<DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+			</TimeRandomizer>
+		</StartTime>
+		<Goals>
+		    <Order>1</Order>
+			<Destination building="2" door="0" description="Docente"/>
+			<DepartureTimeLap>
+			    <Time weekDay="0" hour="0" minute="30" second="0"/>
+				<TimeRandomizer>
+					<UpLimit weekDay="0" hour="0" minute="10" second="0"/>
+					<DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+				</TimeRandomizer>
+			</DepartureTimeLap>
+		</Goals>
+	</Profiles>
+	<Profiles>
+		<Type>PAS</Type>
+		<Amount>1</Amount>
+		<Repetition>Sunday</Repetition>
+		<MaxWalkingDistance UpLimit="90" DownLimit="90"/> <!-- Random between those limits -->
+		<StartTime>
+		    <Time weekDay="0" hour="7" minute="55" second="0"/>
+			<TimeRandomizer>
+				<UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+				<DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+			</TimeRandomizer>
+		</StartTime>
+		<Goals>
+		    <Order>1</Order>
+			<Destination building="2" door="0" description="Oficina"/>
+			<DepartureTimeLap>
+			    <Time weekDay="0" hour="0" minute="30" second="0"/>
+				<TimeRandomizer>
+					<UpLimit weekDay="0" hour="0" minute="10" second="0"/>
+					<DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+				</TimeRandomizer>
+			</DepartureTimeLap>
+		</Goals>
+	</Profiles>
+	<Profiles>
+		<Type>PDI</Type>
+		<Amount>1</Amount>
+		<Repetition>Sunday</Repetition>
+		<MaxWalkingDistance UpLimit="100" DownLimit="80"/> <!-- Random between those limits -->
+		<StartTime>
+		    <Time weekDay="0" hour="8" minute="00" second="0"/>
+			<TimeRandomizer>
+				<UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+				<DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+			</TimeRandomizer>
+		</StartTime>
+		<Goals>
+		    <Order>1</Order>
+			<Destination building="2" door="0" description="Docente"/>
+			<DepartureTimeLap>
+			    <Time weekDay="0" hour="0" minute="30" second="0"/>
+				<TimeRandomizer>
+					<UpLimit weekDay="0" hour="0" minute="10" second="0"/>
+					<DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+				</TimeRandomizer>
+			</DepartureTimeLap>
+		</Goals>
+	</Profiles>
+	<Profiles>
+		<Type>Estudiante</Type>
+		<Amount>1</Amount>
+		<Repetition>Sunday</Repetition>
+		<MaxWalkingDistance UpLimit="100" DownLimit="80"/> <!-- Random between those limits -->
+		<StartTime>
+		    <Time weekDay="0" hour="8" minute="10" second="0"/>
+			<TimeRandomizer>
+				<UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+				<DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+			</TimeRandomizer>
+		</StartTime>
+		<Goals>
+		    <Order>1</Order>
+			<Destination building="2" door="0" description="Docente"/>
+			<DepartureTimeLap>
+			    <Time weekDay="0" hour="0" minute="30" second="0"/>
+				<TimeRandomizer>
+					<UpLimit weekDay="0" hour="0" minute="10" second="0"/>
+					<DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+				</TimeRandomizer>
+			</DepartureTimeLap>
+		</Goals>
+	</Profiles>
+</ConfigsXML>

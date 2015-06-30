@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Create a Map</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1,user-scalable=no">
+  <link rel="stylesheet" href="http://js.arcgis.com/3.11/dijit/themes/claro/claro.css">
+  <link rel="stylesheet" href="http://js.arcgis.com/3.11/esri/css/esri.css">
+  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <style>
+    html, body, #mapDiv{
+      padding: 0;
+      margin: 0;
+      height: 100%;
+    }
+	.fixed{
+			position:fixed;
+			top:0px;
+			right:0px;
+			width:250px;
+			z-index:1000;
+			background-color:#FFF;
+			border:1px solid #000;
+			text-align:center;
+		}
+  </style>
+  <script>  
+      var dojoConfig = {  
+        parseOnLoad: true  
+      };  
+  </script>
+  <script src="http://js.arcgis.com/3.11/"></script>
+  <script>
+	dojo.require("esri.map");
+	
+	var count = 0;
+	var map;
+	var timer;
+	var UPDATE_TIME = 10000;
+	var URL = "http://smartcampus.sg.uji.es:6080/arcgis/rest/services/Parking/parking_slots/MapServer";
+	//var URL = "http://smartcampus.sg.uji.es:6080/arcgis/rest/services/Parking/parking_slots/FeatureServer/0";
+	var layer;
+	
+	function init() {
+		map = new esri.Map("mapDiv", {
+		  basemap: "topo",
+		  center: [-0.0700, 39.9945],
+		  zoom: 17
+		});
+		map.disableClientCaching = true;
+		map.on("load", mapLoadHandler);
+	}
+	
+	function mapLoadHandler(){
+		layer = new esri.layers.ArcGISDynamicMapServiceLayer(URL);
+		//layer = new esri.layers.FeatureLayer(URL, {mode: esri.layers.FeatureLayer.MODE_ONDEMAND});
+        map.addLayer(layer);
+        layer.on("update-end", updateEnd);
+	}
+	
+	function updateEnd(){
+		timer = window.setInterval(update, UPDATE_TIME);
+	}
+	
+	function update(){
+		window.clearInterval(timer);
+		layer.refresh();
+		$("#debugtime").text(count++);
+	}
+	
+	dojo.ready(init);
+  </script>
+
+</head>
+<body class="claro">
+  <div id="mapDiv"></div>
+  <div id="debugtime" class="fixed"><strong>debug time</strong></div>
+</body>
+</html>
