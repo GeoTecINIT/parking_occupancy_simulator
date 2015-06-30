@@ -6,6 +6,7 @@ import sim.util.geo.MasonGeometry;
 import simulation.common.globals.SlotCurrentState;
 import simulation.common.globals.SlotData;
 import simulation.common.globals.SlotStatusStates;
+import simulation.model.support.BuildingEntranceDestination;
 
 import com.esri.core.geometry.Point;
 import com.vividsolutions.jts.geom.Coordinate;
@@ -14,7 +15,7 @@ import com.vividsolutions.jts.geom.Geometry;
 public class GeometricSlotChooser extends SlotChooser {
 	
 	@Override
-	public SlotData chooseSlot(GeomVectorField soltsField, Point point,
+	public SlotData chooseSlot(BuildingEntranceDestination destination, GeomVectorField soltsField, Point point,
 			double initialDistance, double finalDistance, double stepDistance) {
 		SlotCurrentState chosen = null;
 		boolean found = false;

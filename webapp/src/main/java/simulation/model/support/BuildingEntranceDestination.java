@@ -2,20 +2,20 @@ package simulation.model.support;
 
 import com.esri.core.geometry.Point;
 
-public class BuildingEntrance {
+public class BuildingEntranceDestination {
 	public static BuildingEntranceDestination NULL = new BuildingEntranceDestination();
 	
 	private int id;
-	private int building;
+	private String building;
 	private int door;
 	private String description;
 	private Point point;
 	
-	public BuildingEntrance() {
+	public BuildingEntranceDestination() {
 		super();
 	}
 
-	public BuildingEntrance(int id, int building, int door, String description, Point point) {
+	public BuildingEntranceDestination(int id, String building, int door, String description, Point point) {
 		super();
 		this.id = id;
 		this.building = building;
@@ -23,7 +23,7 @@ public class BuildingEntrance {
 		this.point = point;
 	}
 	
-	public BuildingEntrance(int id, int building, int door, String description, double x, double y) {
+	public BuildingEntranceDestination(int id, String building, int door, String description, double x, double y) {
 		super();
 		this.id = id;
 		this.building = building;
@@ -36,7 +36,7 @@ public class BuildingEntrance {
 		return id;
 	}
 
-	public int getBuilding() {
+	public String getBuilding() {
 		return building;
 	}
 

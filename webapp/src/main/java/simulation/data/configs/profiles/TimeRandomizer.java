@@ -30,12 +30,13 @@ public class TimeRandomizer {
 		return downLimit;
 	}
 	
+	//TODO Hacer que se pueda leer de la configuracion el tipo de distribución (uniforme o normal) para el random de tiempo
 	public Timing getRandom(){
 		if (upLimit.compareTo(downLimit) < 0) {
 			Assert.fail("Problems");
 		}
 		long difference = (long) (Timing.toBaseTime(upLimit) - Timing.toBaseTime(downLimit));
-		long chosen = RandomGenerator.getInstance().nextLong(difference);
+		long chosen = RandomGenerator.getInstance().getNormalDistLong(difference);
 		Timing result = downLimit.getAddedTime(Timing.fromBaseTime(chosen));
 		return result;
 	}

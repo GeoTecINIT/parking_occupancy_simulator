@@ -10,31 +10,14 @@ import javax.xml.bind.annotation.XmlRootElement;
 @XmlRootElement(name="Master")
 @XmlAccessorType(XmlAccessType.FIELD)
 public class Master {
-	@XmlElement(name="ByCarProportion")
-	private double byCarProportion;
 	@XmlElement(name="MasterProfiles")
 	private List<MasterProfile> masterProfiles;
 	
 	public Master(){}
 	
-	public Master(double byCarProportion, List<MasterProfile> masterProfiles) {
+	public Master(List<MasterProfile> masterProfiles) {
 		super();
-		this.byCarProportion = byCarProportion;
 		this.masterProfiles = masterProfiles;
-	}
-	
-	/**
-	 * @return the byCarProportion
-	 */
-	public double getByCarProportion() {
-		return byCarProportion;
-	}
-	
-	/**
-	 * @param byCarProportion the byCarProportion to set
-	 */
-	public void setByCarProportion(double byCarProportion) {
-		this.byCarProportion = byCarProportion;
 	}
 	
 	/**

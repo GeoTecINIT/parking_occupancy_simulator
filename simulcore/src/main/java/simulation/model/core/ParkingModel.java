@@ -28,6 +28,7 @@ import simulation.data.configs.profiles.AgentsConfigsLoader;
 import simulation.data.configs.profiles.Configs;
 import simulation.data.gisdata.places.DestinationsGetter;
 import simulation.data.gisdata.places.EntrancesGetter;
+import simulation.model.support.BuildingEntranceDestination;
 import simulation.model.support.Timing;
 import simulation.model.wrapping.HandyObservable;
 import simulation.model.wrapping.ModelEngine;
@@ -219,8 +220,8 @@ public class ParkingModel extends SimState implements ModelEngine{
 	// -----------------------------------
 	// PARKING SEARCH UTILITIES 
 	
-	public synchronized SlotCurrentState chooseAndTakeSlot(Point point, double initialDistance, double finalDistance, double stepDistance){
-		SlotData chosen = chooseSlot(point, initialDistance, finalDistance, stepDistance);
+	public synchronized SlotCurrentState chooseAndTakeSlot(BuildingEntranceDestination destination, Point point, double initialDistance, double finalDistance, double stepDistance){
+		SlotData chosen = chooseSlot(destination, point, initialDistance, finalDistance, stepDistance);
 		SlotCurrentState toChange = null;
 		if (chosen != null){
 			toChange = quickSlotFind.get(chosen.getObjectId());
@@ -229,8 +230,8 @@ public class ParkingModel extends SimState implements ModelEngine{
 		return toChange;
 	}
 	
-	public synchronized SlotData chooseSlot(Point point, double initialDistance, double finalDistance, double stepDistance){
-		return assigner.chooseSlot(soltsField, point, initialDistance, finalDistance, stepDistance);
+	public synchronized SlotData chooseSlot(BuildingEntranceDestination destination, Point point, double initialDistance, double finalDistance, double stepDistance){
+		return assigner.chooseSlot(destination, soltsField, point, initialDistance, finalDistance, stepDistance);
 //		return assigner.chooseSlot(slots, point.getX(), point.getY(), initialDistance, finalDistance, stepDistance);
 	}
 	

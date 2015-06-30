@@ -17,7 +17,7 @@ public class AgentDataLoader {
 	private DestinationMap destinationMap = null;
 	List<EntrancePoint> entrances;
 	
-	public AgentDataLoader(EntrancesGetter entriesGetter,	DestinationMap destinationMap) {
+	public AgentDataLoader(EntrancesGetter entriesGetter, DestinationMap destinationMap) {
 		super();
 		this.entrances = entriesGetter.getEntries();
 		this.destinationMap = destinationMap;

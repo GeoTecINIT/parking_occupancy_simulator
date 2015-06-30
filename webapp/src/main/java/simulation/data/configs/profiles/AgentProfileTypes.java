@@ -9,7 +9,8 @@ import javax.xml.bind.annotation.XmlType;
 public enum AgentProfileTypes {
 	@XmlEnumValue ("Estudiante") ESTUDIANTE(1),
 	@XmlEnumValue ("PDI") PDI(2),
-	@XmlEnumValue ("PAS") PAS(3);
+	@XmlEnumValue ("PAS") PAS(3),
+	@XmlEnumValue ("OTHER") OTHER(3);
 	
 	private int value;
 	private AgentProfileTypes(int value) {

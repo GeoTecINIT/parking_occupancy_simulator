@@ -53,6 +53,7 @@ public abstract class WebRequester<T> {
 	    for (Entry<String, String> entry : params.entrySet()) {
 	    	paramString += entry.getKey() + "=" + entry.getValue() + "&";
 		}
+	    
 	    WebTarget wt = client.target(getUrl() + paramString);
 	    Invocation.Builder request = wt.request(getRequestMediaType());
 	    request.property(ClientProperties.CONNECT_TIMEOUT, getTimeOut());

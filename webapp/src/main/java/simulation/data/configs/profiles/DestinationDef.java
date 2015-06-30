@@ -6,13 +6,13 @@ public class DestinationDef {
 	@XmlAttribute(name="description")
 	private String description;
 	@XmlAttribute(name="building")
-	private int building;
+	private String building;
 	@XmlAttribute(name="door")
 	private int door;
 	
 	public DestinationDef(){}
 	
-	public DestinationDef(String description, int building, int door) {
+	public DestinationDef(String description, String building, int door) {
 		super();
 		this.description = description;
 		this.building = building;
@@ -23,7 +23,7 @@ public class DestinationDef {
 		return description;
 	}
 
-	public int getBuilding() {
+	public String getBuilding() {
 		return building;
 	}
 

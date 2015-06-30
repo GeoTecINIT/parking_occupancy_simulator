@@ -42,11 +42,13 @@ public final class SimulGlobalConstants {
 	public static final String PROPERTIES_FILE_PATH_CHANGE_STATUS = "pathchangestatus";
 	public static final String PROPERTIES_FILE_PATH_GET_SLOT_DATA = "pathpetslotdata";
 	public static final String PROPERTIES_FILE_PATH_CHOOSE_SLOT = "pathchooseslot";
+	public static final String PROPERTIES_FILE_PATH_ASSIGN_SLOT = "pathassignslotentrance";
 	public static final String PROPERTIES_FILE_SLOT_PARAM = "slotparam";
 	public static final String PROPERTIES_FILE_PARKING_PARAM = "parkingparam";
 	public static final String PROPERTIES_FILE_STATUS_PARAM = "statusparam";
 	public static final String PROPERTIES_FILE_LONGITUDE_PARAM = "longitudeparam";
 	public static final String PROPERTIES_FILE_LATITUDE_PARAM = "latitudeparam";
+	public static final String PROPERTIES_FILE_DOOR_PARAM = "doorparam";
 	
 	public static final String USE_REMOTE_ASSIGNER = "useremotechooser";
 	

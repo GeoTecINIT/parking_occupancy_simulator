@@ -5,6 +5,7 @@ import java.util.Map.Entry;
 
 import javax.ws.rs.client.Client;
 import javax.ws.rs.client.ClientBuilder;
+import javax.ws.rs.client.Invocation;
 import javax.ws.rs.client.WebTarget;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
@@ -42,19 +43,22 @@ public abstract class WebRequester<T> {
 			throw new Exception("WebRequester parameters not set");
 		}
 		
-	    Response response = createWebTargetForGet().request(getRequestMediaType()).get();
+	    Response response = createRequestForGet().get();
 	    preProcessResponse(response);
 	    return response.readEntity(classType);
 	}
 	
-	private WebTarget createWebTargetForGet(){
-		client.property(ClientProperties.CONNECT_TIMEOUT, getTimeOut());
-	    client.property(ClientProperties.READ_TIMEOUT, getTimeOut());
+	private Invocation.Builder createRequestForGet(){
 	    String paramString = "";
 	    for (Entry<String, String> entry : params.entrySet()) {
 	    	paramString += entry.getKey() + "=" + entry.getValue() + "&";
 		}
-		return client.target(getUrl() + paramString);
+	    
+	    WebTarget wt = client.target(getUrl() + paramString);
+	    Invocation.Builder request = wt.request(getRequestMediaType());
+	    request.property(ClientProperties.CONNECT_TIMEOUT, getTimeOut());
+	    request.property(ClientProperties.READ_TIMEOUT, getTimeOut());
+		return request;
 	}
 	
 	protected void preProcessResponse(Response response){}

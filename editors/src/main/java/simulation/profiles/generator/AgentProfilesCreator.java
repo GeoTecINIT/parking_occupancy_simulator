@@ -31,7 +31,7 @@ public class AgentProfilesCreator
     		// -----------------------------------------------------
     		
 			for (Faculty faculty : masterProfile.getFaculties()) {
-				int amount = (int)(((double) faculty.getAmount() / totalSchedules) * master.getByCarProportion());
+				int amount = (int)(((double) faculty.getAmount() / totalSchedules) * masterProfile.getByCarProportion());
 				double facultyPeopleProportion = (double)(faculty.getAmount()) / totalPeopleAmount;
 				int acumulated = 0;
 				Collections.sort(masterProfile.getSchedules());
@@ -42,7 +42,7 @@ public class AgentProfilesCreator
 						for (Sport sport : masterProfile.getSports()) {
 							// -----------------------------------
 							// Amounts
-							int cantSport = (int)(((double)sport.getAmount() * facultyPeopleProportion / cantScheduledWithSport) * master.getByCarProportion()) + 1;
+							int cantSport = (int)(((double)sport.getAmount() * facultyPeopleProportion / cantScheduledWithSport) * masterProfile.getByCarProportion()) + 1;
 							if ((amount - cantSport) > 0) { acumulated += (amount - cantSport); }
 							// -----------------------------------
 							// Create the final profile
@@ -58,7 +58,7 @@ public class AgentProfilesCreator
 					else if (schedule.getLibraryGoal() != null){
 						// -----------------------------------
 						// Amounts
-						int cantLibrary = (int)(((double)masterProfile.getLibrary().getAmount() * facultyPeopleProportion / cantScheduledWithLibrary) * master.getByCarProportion()) + 1;
+						int cantLibrary = (int)(((double)masterProfile.getLibrary().getAmount() * facultyPeopleProportion / cantScheduledWithLibrary) * masterProfile.getByCarProportion()) + 1;
 						if ((amount - cantLibrary) > 0) { acumulated += (amount - cantLibrary); }
 						// -----------------------------------
 						// Create the final profile

@@ -17,6 +17,12 @@ public class GoalDefinition {
 		this.departureTimeLap = departureTimeLap;
 	}
 	
+	public GoalDefinition(int order, DestinationDef destination, TimeDefinition departureTimeLap) {
+		this.order = order;
+		this.destination = destination;
+		this.departureTimeLap = departureTimeLap;
+	}
+	
 	public int getOrder() {
 		return order;
 	}

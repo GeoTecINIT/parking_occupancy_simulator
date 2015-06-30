@@ -13,6 +13,8 @@ import simulation.data.configs.profiles.DoubleRandomizer;
 @XmlRootElement
 @XmlAccessorType(XmlAccessType.FIELD)
 public class MasterProfile {
+	@XmlElement(name="ByCarProportion")
+	private double byCarProportion;
 	@XmlElement(name="Name")
 	private AgentProfileTypes name;
 	@XmlElement(name="Schedules")
@@ -26,14 +28,29 @@ public class MasterProfile {
 	
 	public MasterProfile(){}
 	
-	public MasterProfile(AgentProfileTypes name, DoubleRandomizer maxWalkingDistance, List<Schedule> schedules,
+	public MasterProfile(double byCarProportion, AgentProfileTypes name, DoubleRandomizer maxWalkingDistance, List<Schedule> schedules,
 			List<Faculty> faculties, Library library, List<Sport> sports) {
 		super();
+		this.byCarProportion = byCarProportion;
 		this.name = name;
 		this.schedules = schedules;
 		this.faculties = faculties;
 		this.library = library;
 		this.sports = sports;
+	}
+	
+	/**
+	 * @return the byCarProportion
+	 */
+	public double getByCarProportion() {
+		return byCarProportion;
+	}
+	
+	/**
+	 * @param byCarProportion the byCarProportion to set
+	 */
+	public void setByCarProportion(double byCarProportion) {
+		this.byCarProportion = byCarProportion;
 	}
 
 	/**

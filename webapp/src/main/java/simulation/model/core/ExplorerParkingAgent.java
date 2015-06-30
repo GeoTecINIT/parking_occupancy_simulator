@@ -31,8 +31,8 @@ public class ExplorerParkingAgent extends ParkingAgent {
 	protected SimulRoute pathToDestination = null;
 	
 	private List<BuildingEntranceDestination> currentBuildingEntraces = null;
-	private List<Integer> buildingsForSeach = null;
-	private int currentBuilding;
+	private List<String> buildingsForSeach = null;
+	private String currentBuilding;
 	
 	private final double MAX_WALKING_DISTANCE = 50;			// meters	HAY QUE HACER CALCULO CON SERVICIO ARCGIS
 	double maxWalkingDistance = MAX_WALKING_DISTANCE;

@@ -21,16 +21,20 @@ public class SmartParkingWServices {
 	private String pathChangeStatus;
 	private String pathGetSlotData;
 	private String pathChooseSlot;
+	private String pathAssignSlotEntrance;
 	private String slotParam;
 	private String parkingParam;
 	private String statusParam;
 	private String longitudeParam;
 	private String latitudeParam;
+	private String doorParam;
 	private int timeOutInterval;
 	
 	SmartParkingSlotDataGetter slotDataGetter;
 	SmartParkingSlotStatusChanger slotStatusChanger;
-	SmartParkingSlotChooser slotChooser;
+	SmartParkingSlotChooserCoord slotChooser;
+	SmartParkingSlotAssignerCoord slotAssigner;
+	SmartParkingSlotAssignerEntrance slotAssignerEntrance;
 	
 	private static volatile SmartParkingWServices instance = null;
 	
@@ -38,7 +42,9 @@ public class SmartParkingWServices {
     	readParams();
     	slotDataGetter = new SmartParkingSlotDataGetter(target, pathGetSlotData, timeOutInterval);
     	slotStatusChanger = new SmartParkingSlotStatusChanger(target, pathChangeStatus, timeOutInterval, slotParam, parkingParam, statusParam);
-    	slotChooser = new SmartParkingSlotChooser(target, pathChooseSlot, timeOutInterval, longitudeParam, latitudeParam);
+    	slotChooser = new SmartParkingSlotChooserCoord(target, pathChooseSlot, timeOutInterval, longitudeParam, latitudeParam);
+    	slotAssigner = new SmartParkingSlotAssignerCoord(target, pathChooseSlot, timeOutInterval, longitudeParam, latitudeParam);
+    	slotAssignerEntrance = new SmartParkingSlotAssignerEntrance(target, pathAssignSlotEntrance, timeOutInterval, doorParam);
     }
  
     public static SmartParkingWServices getInstance() {
@@ -58,11 +64,13 @@ public class SmartParkingWServices {
     	pathChangeStatus = pl.getProperty(PROPERTIES_FILE_PATH_CHANGE_STATUS);
     	pathGetSlotData = pl.getProperty(PROPERTIES_FILE_PATH_GET_SLOT_DATA);
     	pathChooseSlot = pl.getProperty(PROPERTIES_FILE_PATH_CHOOSE_SLOT);
+    	pathAssignSlotEntrance = pl.getProperty(PROPERTIES_FILE_PATH_ASSIGN_SLOT);
     	slotParam = pl.getProperty(PROPERTIES_FILE_SLOT_PARAM);
     	parkingParam = pl.getProperty(PROPERTIES_FILE_PARKING_PARAM);
     	statusParam = pl.getProperty(PROPERTIES_FILE_STATUS_PARAM);
     	longitudeParam = pl.getProperty(PROPERTIES_FILE_LONGITUDE_PARAM);
     	latitudeParam = pl.getProperty(PROPERTIES_FILE_LATITUDE_PARAM);
+    	doorParam = pl.getProperty(PROPERTIES_FILE_DOOR_PARAM);
     	timeOutInterval = pl.getPropertyAsInt(PROPERTIES_FILE_CONN_TIMEOUT);
     }
 	
@@ -91,9 +99,37 @@ public class SmartParkingWServices {
 		}
 	}
 	
-	public SlotData chooseSlot(double longitude, double latitude){
+	public SlotData chooseSlotCoord(double longitude, double latitude){
 		try{
-			ResponseChooseSlot resp = slotChooser.chooseSlot(longitude, latitude);
+			ResponseChooseSlotCoord resp = slotChooser.chooseSlotCoord(longitude, latitude);
+			if (resp == null){
+				logger.error("Problems sending information!!! Error returned");
+			}
+			return resp.getResponse();
+		}
+		catch(Exception e){
+			logger.error("Problems sending information!!! Exception: " + e.getMessage());
+			return null;
+		}
+	}
+	
+	public SlotData assignSlotCoord(double longitude, double latitude){
+		try{
+			ResponseAssignSlotCoord resp = slotAssigner.assignSlotCoord(longitude, latitude);
+			if (resp == null){
+				logger.error("Problems sending information!!! Error returned");
+			}
+			return resp.getResponse();	
+		}
+		catch(Exception e){
+			logger.error("Problems sending information!!! Exception: " + e.getMessage());
+			return null;
+		}
+	}
+	
+	public SlotData assignSlotEntrance(int door){
+		try{
+			ResponseAssignSlotEntrance resp = slotAssignerEntrance.assignSlotCoord(door);
 			if (resp == null){
 				logger.error("Problems sending information!!! Error returned");
 			}

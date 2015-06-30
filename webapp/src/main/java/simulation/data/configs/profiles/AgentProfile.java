@@ -28,6 +28,16 @@ public class AgentProfile {
 		this.startTime = startTime;
 		this.goals = goals;
 	}
+	
+	public AgentProfile(AgentProfileTypes type, int amount, WeekRepetitionType repetition, DoubleRandomizer maxWalkingDistance, TimeDefinition startTime, List<GoalDefinition> goals) {
+		super();
+		this.type = type;
+		this.amount = amount;
+		this.repetition = repetition;
+		this.maxWalkingDistance = maxWalkingDistance;
+		this.startTime = startTime;
+		this.goals = goals;
+	}
 
 	public AgentProfileTypes getType() {
 		return type;

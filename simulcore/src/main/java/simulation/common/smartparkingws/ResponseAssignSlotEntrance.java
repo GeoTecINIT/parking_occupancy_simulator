@@ -7,16 +7,16 @@ import javax.xml.bind.annotation.XmlRootElement;
 
 import simulation.common.globals.SlotData;
 
-@XmlRootElement(name="chooseSlotResponse", namespace="http://manageslots.smartparking.smartways.geotec.uji.es")
+@XmlRootElement(name="assignSlotEntranceResponse", namespace="http://manageslots.smartparking.smartways.geotec.uji.es")
 @XmlAccessorType(XmlAccessType.FIELD)
-
-public class ResponseChooseSlot
-{
-	@XmlElement(name="return", namespace="http://manageslots.smartparking.smartways.geotec.uji.es")
+public class ResponseAssignSlotEntrance {
+	
+	public ResponseAssignSlotEntrance(){
+		super();
+	}
+	
+	@XmlElement(name = "return", namespace = "http://manageslots.smartparking.smartways.geotec.uji.es")
 	private SlotData response;
-
-	public ResponseChooseSlot()	{
-	} // JAXB needs this
 
 	public SlotData getResponse() {
 		return response;

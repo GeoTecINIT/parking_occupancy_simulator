@@ -4,17 +4,18 @@ import java.util.HashMap;
 import java.util.Map;
 
 import javax.ws.rs.core.MediaType;
+
 import simulation.common.globals.WebRequester;
 
-public class SmartParkingSlotChooser extends WebRequester<ResponseChooseSlot> {
+public class SmartParkingSlotAssignerCoord extends WebRequester<ResponseAssignSlotCoord> {
 	private String target;
 	private String pathChooseSlot;
 	private String longitudeParam;
 	private String latitudeParam;
 	private int timeOutInterval;
 	
-	public SmartParkingSlotChooser(String target, String pathChooseSlot, int timeOutInterval, String longitudeParam, String latitudeParam){
-		super(ResponseChooseSlot.class);
+	public SmartParkingSlotAssignerCoord(String target, String pathChooseSlot, int timeOutInterval, String longitudeParam, String latitudeParam){
+		super(ResponseAssignSlotCoord.class);
 		this.target = target;
 		this.pathChooseSlot = pathChooseSlot;
 		this.timeOutInterval = timeOutInterval;
@@ -22,7 +23,7 @@ public class SmartParkingSlotChooser extends WebRequester<ResponseChooseSlot> {
 		this.latitudeParam = latitudeParam;
 	}
 	
-	public ResponseChooseSlot chooseSlot(double longitude, double latitude) throws Exception{
+	public ResponseAssignSlotCoord assignSlotCoord(double longitude, double latitude) throws Exception{
 		// Get the data from the web service
 		setUrl(target + pathChooseSlot);
 		setRequestMediaType(MediaType.APPLICATION_XML_TYPE);
@@ -33,7 +34,7 @@ public class SmartParkingSlotChooser extends WebRequester<ResponseChooseSlot> {
 		params.put(latitudeParam, ((Double)latitude).toString());
 		setParams(params);
 		
-		ResponseChooseSlot resp = makeRequest();
+		ResponseAssignSlotCoord resp = makeRequest();
 		return resp;
 	}
 }

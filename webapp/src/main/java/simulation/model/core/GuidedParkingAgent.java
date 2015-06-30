@@ -53,7 +53,7 @@ public class GuidedParkingAgent extends ParkingAgent {
 			if (pathToDestination == null){
 				// ------------ FIND A FREE SPOT CLOSE TO THE REQUIRED DESTINATION AND A PATH TO THAT SPOT
 				end = goals.get(currentSchedule).getDestination().getPoint();
-				selectedSlot = parkingModel.chooseAndTakeSlot(end, GUIDED_ALGORITHM_STARTING_DISTANCE, GUIDED_ALGORITHM_FINAL_DISTANCE, GUIDED_ALGORITHM_STEP_DISTANCE);
+				selectedSlot = parkingModel.chooseAndTakeSlot(goals.get(currentSchedule).getDestination(), end, GUIDED_ALGORITHM_STARTING_DISTANCE, GUIDED_ALGORITHM_FINAL_DISTANCE, GUIDED_ALGORITHM_STEP_DISTANCE);
 				if (selectedSlot == null){
 					// ------------ NO PARKING PLACE FOUND -> LEAVING SIMULATION
 					stop();

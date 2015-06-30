@@ -8,6 +8,7 @@ import simulation.common.globals.SlotData;
 import simulation.common.globals.SlotStatusStates;
 import simulation.data.gisdata.routes.PedestrianRouteCalulator;
 import simulation.data.gisdata.routes.RouteCalulator;
+import simulation.model.support.BuildingEntranceDestination;
 import simulation.model.support.SimulRoute;
 
 import com.esri.core.geometry.Point;
@@ -18,7 +19,7 @@ public class GeographicalSlotChooser extends SlotChooser {
 	private RouteCalulator routeCalulator = PedestrianRouteCalulator.getInstance();
 	
 	@Override
-	public SlotData chooseSlot(GeomVectorField soltsField, Point point,
+	public SlotData chooseSlot(BuildingEntranceDestination destination, GeomVectorField soltsField, Point point,
 			double initialDistance, double finalDistance, double stepDistance) {
 		SlotCurrentState chosen = null;
 		boolean found = false;

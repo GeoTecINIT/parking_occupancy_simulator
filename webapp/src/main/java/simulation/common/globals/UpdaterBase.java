@@ -31,7 +31,6 @@ public abstract class UpdaterBase<T> implements Observer, CancelableRunnable{
 		while(!cancelledFlag){
 			doSynchUpdate(queue.take());
 		}
-		System.out.println("cancelledFlag");
 		return 0;
 	}
 	
