@@ -71,6 +71,7 @@ public class ConsoleModelGlobalUpdater implements Observer{
 			else{
 				System.out.println("No Runs With Explorer Agents");
 			}
+			System.exit(0); //TODO Look for a better solution
 			break;
 			
 		default: //

@@ -14,7 +14,7 @@
 		</StartTime>
 		<Goals>
 		    <Order>1</Order>
-			<Destination building="2" door="0" description="Docente"/>
+			<Destination description="UA" building="UA" door="0"/>
 			<DepartureTimeLap>
 			    <Time weekDay="0" hour="4" minute="0" second="0"/>
 				<TimeRandomizer>
@@ -38,7 +38,7 @@
 		</StartTime>
 		<Goals>
 		    <Order>1</Order>
-			<Destination building="2" door="0" description="Docente"/>
+			<Destination description="UA" building="UA" door="0"/>
 			<DepartureTimeLap>
 			    <Time weekDay="0" hour="2" minute="0" second="0"/>
 				<TimeRandomizer>

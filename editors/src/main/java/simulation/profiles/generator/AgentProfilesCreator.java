@@ -17,7 +17,7 @@ import simulation.data.configs.profiles.WeekRepetitionType;
  */
 public class AgentProfilesCreator 
 {
-	public static List<AgentProfile> buildProfiles(Master master, WeekRepetitionType repetition, DoubleRandomizer maxWalkingDistance){
+	public static List<AgentProfile> buildProfiles(Master master, double globalPercentage, WeekRepetitionType repetition, DoubleRandomizer maxWalkingDistance){
 		
 		List<AgentProfile> agentProfiles = new ArrayList<AgentProfile>();
     	
@@ -31,7 +31,8 @@ public class AgentProfilesCreator
     		// -----------------------------------------------------
     		
 			for (Faculty faculty : masterProfile.getFaculties()) {
-				int amount = (int)(((double) faculty.getAmount() / totalSchedules) * masterProfile.getByCarProportion());
+				double byCarProportion = masterProfile.getByCarProportion() * globalPercentage;
+				int amount = (int)(((double) faculty.getAmount() / totalSchedules) * byCarProportion);
 				double facultyPeopleProportion = (double)(faculty.getAmount()) / totalPeopleAmount;
 				int acumulated = 0;
 				Collections.sort(masterProfile.getSchedules());
@@ -42,7 +43,7 @@ public class AgentProfilesCreator
 						for (Sport sport : masterProfile.getSports()) {
 							// -----------------------------------
 							// Amounts
-							int cantSport = (int)(((double)sport.getAmount() * facultyPeopleProportion / cantScheduledWithSport) * masterProfile.getByCarProportion()) + 1;
+							int cantSport = (int)(((double)sport.getAmount() * facultyPeopleProportion / cantScheduledWithSport) * byCarProportion) + 1;
 							if ((amount - cantSport) > 0) { acumulated += (amount - cantSport); }
 							// -----------------------------------
 							// Create the final profile
@@ -58,7 +59,7 @@ public class AgentProfilesCreator
 					else if (schedule.getLibraryGoal() != null){
 						// -----------------------------------
 						// Amounts
-						int cantLibrary = (int)(((double)masterProfile.getLibrary().getAmount() * facultyPeopleProportion / cantScheduledWithLibrary) * masterProfile.getByCarProportion()) + 1;
+						int cantLibrary = (int)(((double)masterProfile.getLibrary().getAmount() * facultyPeopleProportion / cantScheduledWithLibrary) * byCarProportion) + 1;
 						if ((amount - cantLibrary) > 0) { acumulated += (amount - cantLibrary); }
 						// -----------------------------------
 						// Create the final profile
@@ -90,15 +91,23 @@ public class AgentProfilesCreator
 	
     public static void main( String[] args ) throws Exception
     {
-    	String masterXMLPath = "D:\\German\\IdeaProjects\\test\\untitled\\master.xml";
-    	String agentXMLPath = "D:\\German\\IdeaProjects\\test\\untitled\\agents.xml";
+    	String masterXMLPath = "master.xml";
+    	String agentXMLPath = "agents.xml";
+    	double globalPercentage = 1;
+    	
+    	if (args.length > 2) {
+    		masterXMLPath = args[0];
+    		agentXMLPath = args[1];
+    		globalPercentage = Double.parseDouble(args[2]);
+    	}
+    	
     	WeekRepetitionType repetition = WeekRepetitionType.SUNDAY;
     	DoubleRandomizer maxWalkingDistance = new DoubleRandomizer(100, 80);
     	
     	XMLPersistenceManager<Master> masterXMLManager = new XMLPersistenceManager<Master>(Master.class, masterXMLPath);
     	Master master = masterXMLManager.read();
     	
-    	List<AgentProfile> agentProfiles = buildProfiles(master, repetition, maxWalkingDistance);
+    	List<AgentProfile> agentProfiles = buildProfiles(master, globalPercentage, repetition, maxWalkingDistance);
     	
     	XMLPersistenceManager<Configs> configsXMLManager = new XMLPersistenceManager<Configs>(Configs.class, agentXMLPath);
     	configsXMLManager.setPretty();

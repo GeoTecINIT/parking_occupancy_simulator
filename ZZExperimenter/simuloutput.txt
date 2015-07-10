@@ -1,0 +1,196 @@
+Problems getting route information  !!! Exception: Error reading entity from input stream.
+Error getting route!!!!!
+ITERATION 1
+Tricked Amount	1
+Guided Mean Distance	1964.7984704893713
+Explorer Mean Distance	2281.5238095238096
+Problems getting route information  !!! Exception: Error reading entity from input stream.
+Error getting route!!!!!
+ITERATION 2
+Tricked Amount	1
+Guided Mean Distance	1803.8762751302088
+Explorer Mean Distance	2227.3802816901407
+ITERATION 3
+Tricked Amount	2
+Guided Mean Distance	1803.8877501303386
+Explorer Mean Distance	2307.0588235294117
+FINISHED AFTER ITERATIONS 3
+Avg Tricked Amount	1
+Avg Guided Mean Distance	1857.5208319166395
+Avg Explorer Mean Distance	2271.9876382477873
+ITERATION 1
+Tricked Amount	3
+Guided Mean Distance	2019.6708795298416
+Explorer Mean Distance	2079.478260869565
+Problems getting route information  !!! Exception: Error reading entity from input stream.
+Error getting route!!!!!
+ITERATION 2
+Tricked Amount	1
+Guided Mean Distance	2105.500697762723
+Explorer Mean Distance	2018.3636363636363
+Problems getting route information  !!! Exception: Error reading entity from input stream.
+Error getting route!!!!!
+ITERATION 3
+Tricked Amount	3
+Guided Mean Distance	1885.1248840553344
+Explorer Mean Distance	2244.5714285714284
+FINISHED AFTER ITERATIONS 3
+Avg Tricked Amount	2
+Avg Guided Mean Distance	2003.432153782633
+Avg Explorer Mean Distance	2114.1377752682097
+Problems getting route information  !!! Exception: Error reading entity from input stream.
+Error getting route!!!!!
+Problems getting route information  !!! Exception: Error reading entity from input stream.
+Error getting route!!!!!
+ITERATION 1
+Tricked Amount	1
+Guided Mean Distance	2196.255846004438
+Explorer Mean Distance	2078.8
+Problems getting route information  !!! Exception: Error reading entity from input stream.
+Error getting route!!!!!
+Problems getting route information  !!! Exception: Error reading entity from input stream.
+Error getting route!!!!!
+ITERATION 2
+Tricked Amount	3
+Guided Mean Distance	2079.036025393653
+Explorer Mean Distance	2509.6666666666665
+Problems getting route information  !!! Exception: Error reading entity from input stream.
+Error getting route!!!!!
+Problems getting route information  !!! Exception: Error reading entity from input stream.
+Error getting route!!!!!
+ITERATION 3
+Tricked Amount	3
+Guided Mean Distance	2083.8921606828603
+Explorer Mean Distance	2403.2
+FINISHED AFTER ITERATIONS 3
+Avg Tricked Amount	2
+Avg Guided Mean Distance	2119.7280106936505
+Avg Explorer Mean Distance	2330.5555555555557
+ITERATION 1
+Tricked Amount	2
+Guided Mean Distance	1827.0112351296327
+Explorer Mean Distance	2028.4556962025317
+ITERATION 2
+Tricked Amount	4
+Guided Mean Distance	1756.180742465991
+Explorer Mean Distance	1996.8
+ITERATION 3
+Tricked Amount	3
+Guided Mean Distance	1871.3659672262193
+Explorer Mean Distance	1906.4
+FINISHED AFTER ITERATIONS 3
+Avg Tricked Amount	3
+Avg Guided Mean Distance	1818.185981607281
+Avg Explorer Mean Distance	1977.2185654008438
+ITERATION 1
+Tricked Amount	8
+Guided Mean Distance	1867.9241927750134
+Explorer Mean Distance	2313.0
+Problems getting route information  !!! Exception: Error reading entity from input stream.
+Error getting route!!!!!
+Problems getting route information  !!! Exception: Error reading entity from input stream.
+Error getting route!!!!!
+ITERATION 2
+Tricked Amount	3
+Guided Mean Distance	1716.1974629794686
+Explorer Mean Distance	2467.304347826087
+ITERATION 3
+Tricked Amount	5
+Guided Mean Distance	1838.058446418234
+Explorer Mean Distance	2154.0425531914893
+FINISHED AFTER ITERATIONS 3
+Avg Tricked Amount	5
+Avg Guided Mean Distance	1807.3933673909053
+Avg Explorer Mean Distance	2311.448967005859
+Problems getting route information  !!! Exception: Error reading entity from input stream.
+Error getting route!!!!!
+ITERATION 1
+Tricked Amount	2
+Guided Mean Distance	1801.638259057565
+Explorer Mean Distance	1864.0
+Problems getting route information  !!! Exception: Error reading entity from input stream.
+Error getting route!!!!!
+ITERATION 2
+Tricked Amount	7
+Guided Mean Distance	1906.7827725121501
+Explorer Mean Distance	2044.6896551724137
+ITERATION 3
+Tricked Amount	6
+Guided Mean Distance	1829.4938166020393
+Explorer Mean Distance	1912.4705882352941
+FINISHED AFTER ITERATIONS 3
+Avg Tricked Amount	5
+Avg Guided Mean Distance	1845.9716160572516
+Avg Explorer Mean Distance	1940.3867478025695
+ITERATION 1
+Tricked Amount	4
+Guided Mean Distance	1348.8227412893464
+Explorer Mean Distance	1893.2549019607843
+Problems getting route information  !!! Exception: Error reading entity from input stream.
+Error getting route!!!!!
+ITERATION 2
+Tricked Amount	2
+Guided Mean Distance	1579.008330311357
+Explorer Mean Distance	1793.5833333333333
+ITERATION 3
+Tricked Amount	3
+Guided Mean Distance	1607.54541144385
+Explorer Mean Distance	1790.08
+FINISHED AFTER ITERATIONS 3
+Avg Tricked Amount	3
+Avg Guided Mean Distance	1511.7921610148512
+Avg Explorer Mean Distance	1825.6394117647058
+Problems getting route information  !!! Exception: Error reading entity from input stream.
+Error getting route!!!!!
+Problems getting route information  !!! Exception: Error reading entity from input stream.
+Error getting route!!!!!
+ITERATION 1
+Tricked Amount	12
+Guided Mean Distance	1888.385305015633
+Explorer Mean Distance	2152.7272727272725
+Problems getting route information  !!! Exception: Error reading entity from input stream.
+Error getting route!!!!!
+Problems getting route information  !!! Exception: Error reading entity from input stream.
+Error getting route!!!!!
+ITERATION 2
+Tricked Amount	12
+Guided Mean Distance	2000.8623219244232
+Explorer Mean Distance	2111.768115942029
+Problems getting route information  !!! Exception: Error reading entity from input stream.
+Error getting route!!!!!
+Problems getting route information  !!! Exception: Error reading entity from input stream.
+Error getting route!!!!!
+Problems getting route information  !!! Exception: Error reading entity from input stream.
+Error getting route!!!!!
+ITERATION 3
+Tricked Amount	10
+Guided Mean Distance	1872.4163988496093
+Explorer Mean Distance	2232.4324324324325
+FINISHED AFTER ITERATIONS 3
+Avg Tricked Amount	11
+Avg Guided Mean Distance	1920.5546752632217
+Avg Explorer Mean Distance	2165.6426070339116
+Problems getting route information  !!! Exception: Error reading entity from input stream.
+Error getting route!!!!!
+Problems getting route information  !!! Exception: Error reading entity from input stream.
+Error getting route!!!!!
+ITERATION 1
+Tricked Amount	3
+Guided Mean Distance	1834.6482368048448
+Explorer Mean Distance	1858.9714285714285
+Problems getting route information  !!! Exception: Error reading entity from input stream.
+Error getting route!!!!!
+ITERATION 2
+Tricked Amount	5
+Guided Mean Distance	1759.589435713528
+Explorer Mean Distance	2216.1632653061224
+Problems getting route information  !!! Exception: Error reading entity from input stream.
+Error getting route!!!!!
+ITERATION 3
+Tricked Amount	6
+Guided Mean Distance	1705.926934759184
+Explorer Mean Distance	2111.7948717948716
+FINISHED AFTER ITERATIONS 3
+Avg Tricked Amount	4
+Avg Guided Mean Distance	1766.7215357591856
+Avg Explorer Mean Distance	2062.309855224141

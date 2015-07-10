@@ -54,11 +54,11 @@ public class MasonModelConsoleController extends MasonModelController{
 	
 	@Override
 	protected boolean isSlotInitNeeded() {
-		return true;
+		return false;
 	}
 
 	@Override
 	protected boolean isSetSlotsFreeOnInit() {
-		return false;
+		return true; // TODO: Cambiar a true 
 	}
 }

@@ -1,0 +1,3228 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ConfigsXML>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="CD" building="CD" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+        <Goals>
+            <Order>2</Order>
+            <Destination description="DA" building="DA" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="0" minute="30" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="CD" building="CD" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+        <Goals>
+            <Order>2</Order>
+            <Destination description="DB" building="DB" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="0" minute="30" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="CD" building="CD" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+        <Goals>
+            <Order>2</Order>
+            <Destination description="DC" building="DC" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="0" minute="30" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>5</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="CD" building="CD" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="FF" building="FF" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+        <Goals>
+            <Order>2</Order>
+            <Destination description="DA" building="DA" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="0" minute="30" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="FF" building="FF" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+        <Goals>
+            <Order>2</Order>
+            <Destination description="DB" building="DB" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="0" minute="30" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="FF" building="FF" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+        <Goals>
+            <Order>2</Order>
+            <Destination description="DC" building="DC" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="0" minute="30" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>0</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="FF" building="FF" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="FF" building="FF" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+        <Goals>
+            <Order>2</Order>
+            <Destination description="DA" building="DA" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="0" minute="30" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="FF" building="FF" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+        <Goals>
+            <Order>2</Order>
+            <Destination description="DB" building="DB" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="0" minute="30" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="FF" building="FF" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+        <Goals>
+            <Order>2</Order>
+            <Destination description="DC" building="DC" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="0" minute="30" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>0</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="FF" building="FF" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="RR" building="RR" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+        <Goals>
+            <Order>2</Order>
+            <Destination description="DA" building="DA" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="0" minute="30" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="RR" building="RR" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+        <Goals>
+            <Order>2</Order>
+            <Destination description="DB" building="DB" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="0" minute="30" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="RR" building="RR" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+        <Goals>
+            <Order>2</Order>
+            <Destination description="DC" building="DC" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="0" minute="30" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>49</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="RR" building="RR" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="NA" building="NA" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+        <Goals>
+            <Order>2</Order>
+            <Destination description="DA" building="DA" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="0" minute="30" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="NA" building="NA" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+        <Goals>
+            <Order>2</Order>
+            <Destination description="DB" building="DB" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="0" minute="30" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="NA" building="NA" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+        <Goals>
+            <Order>2</Order>
+            <Destination description="DC" building="DC" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="0" minute="30" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>0</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="NA" building="NA" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="NB" building="NB" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+        <Goals>
+            <Order>2</Order>
+            <Destination description="DA" building="DA" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="0" minute="30" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="NB" building="NB" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+        <Goals>
+            <Order>2</Order>
+            <Destination description="DB" building="DB" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="0" minute="30" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="NB" building="NB" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+        <Goals>
+            <Order>2</Order>
+            <Destination description="DC" building="DC" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="0" minute="30" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>0</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="NB" building="NB" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="FF" building="FF" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+        <Goals>
+            <Order>2</Order>
+            <Destination description="DA" building="DA" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="0" minute="30" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="FF" building="FF" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+        <Goals>
+            <Order>2</Order>
+            <Destination description="DB" building="DB" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="0" minute="30" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="FF" building="FF" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+        <Goals>
+            <Order>2</Order>
+            <Destination description="DC" building="DC" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="0" minute="30" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>0</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="FF" building="FF" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="TC" building="TC" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+        <Goals>
+            <Order>2</Order>
+            <Destination description="DA" building="DA" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="0" minute="30" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="TC" building="TC" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+        <Goals>
+            <Order>2</Order>
+            <Destination description="DB" building="DB" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="0" minute="30" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="TC" building="TC" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+        <Goals>
+            <Order>2</Order>
+            <Destination description="DC" building="DC" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="0" minute="30" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="TC" building="TC" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="TD" building="TD" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+        <Goals>
+            <Order>2</Order>
+            <Destination description="DA" building="DA" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="0" minute="30" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="TD" building="TD" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+        <Goals>
+            <Order>2</Order>
+            <Destination description="DB" building="DB" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="0" minute="30" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="TD" building="TD" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+        <Goals>
+            <Order>2</Order>
+            <Destination description="DC" building="DC" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="0" minute="30" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="TD" building="TD" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="TI" building="TI" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+        <Goals>
+            <Order>2</Order>
+            <Destination description="DA" building="DA" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="0" minute="30" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="TI" building="TI" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+        <Goals>
+            <Order>2</Order>
+            <Destination description="DB" building="DB" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="0" minute="30" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="TI" building="TI" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+        <Goals>
+            <Order>2</Order>
+            <Destination description="DC" building="DC" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="0" minute="30" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="TI" building="TI" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="TT" building="TT" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+        <Goals>
+            <Order>2</Order>
+            <Destination description="DA" building="DA" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="0" minute="30" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="TT" building="TT" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+        <Goals>
+            <Order>2</Order>
+            <Destination description="DB" building="DB" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="0" minute="30" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="TT" building="TT" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+        <Goals>
+            <Order>2</Order>
+            <Destination description="DC" building="DC" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="0" minute="30" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="TT" building="TT" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="HD" building="HD" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+        <Goals>
+            <Order>2</Order>
+            <Destination description="DA" building="DA" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="0" minute="30" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="HD" building="HD" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+        <Goals>
+            <Order>2</Order>
+            <Destination description="DB" building="DB" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="0" minute="30" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="HD" building="HD" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+        <Goals>
+            <Order>2</Order>
+            <Destination description="DC" building="DC" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="0" minute="30" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>0</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="HD" building="HD" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="MI" building="MI" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+        <Goals>
+            <Order>2</Order>
+            <Destination description="DA" building="DA" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="0" minute="30" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="MI" building="MI" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+        <Goals>
+            <Order>2</Order>
+            <Destination description="DB" building="DB" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="0" minute="30" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="MI" building="MI" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+        <Goals>
+            <Order>2</Order>
+            <Destination description="DC" building="DC" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="0" minute="30" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>0</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="MI" building="MI" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="HC" building="HC" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+        <Goals>
+            <Order>2</Order>
+            <Destination description="DA" building="DA" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="0" minute="30" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="HC" building="HC" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+        <Goals>
+            <Order>2</Order>
+            <Destination description="DB" building="DB" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="0" minute="30" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="HC" building="HC" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+        <Goals>
+            <Order>2</Order>
+            <Destination description="DC" building="DC" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="0" minute="30" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="HC" building="HC" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="HD" building="HD" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+        <Goals>
+            <Order>2</Order>
+            <Destination description="DA" building="DA" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="0" minute="30" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="HD" building="HD" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+        <Goals>
+            <Order>2</Order>
+            <Destination description="DB" building="DB" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="0" minute="30" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="HD" building="HD" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+        <Goals>
+            <Order>2</Order>
+            <Destination description="DC" building="DC" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="0" minute="30" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="HD" building="HD" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="JA" building="JA" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+        <Goals>
+            <Order>2</Order>
+            <Destination description="DA" building="DA" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="0" minute="30" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="JA" building="JA" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+        <Goals>
+            <Order>2</Order>
+            <Destination description="DB" building="DB" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="0" minute="30" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="JA" building="JA" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+        <Goals>
+            <Order>2</Order>
+            <Destination description="DC" building="DC" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="0" minute="30" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>0</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="JA" building="JA" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="JC" building="JC" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+        <Goals>
+            <Order>2</Order>
+            <Destination description="DA" building="DA" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="0" minute="30" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="JC" building="JC" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+        <Goals>
+            <Order>2</Order>
+            <Destination description="DB" building="DB" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="0" minute="30" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="JC" building="JC" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+        <Goals>
+            <Order>2</Order>
+            <Destination description="DC" building="DC" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="0" minute="30" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>0</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="JC" building="JC" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="IT" building="IT" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+        <Goals>
+            <Order>2</Order>
+            <Destination description="DA" building="DA" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="0" minute="30" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="IT" building="IT" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+        <Goals>
+            <Order>2</Order>
+            <Destination description="DB" building="DB" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="0" minute="30" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="IT" building="IT" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+        <Goals>
+            <Order>2</Order>
+            <Destination description="DC" building="DC" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="0" minute="30" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>0</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="IT" building="IT" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="RR" building="RR" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+        <Goals>
+            <Order>2</Order>
+            <Destination description="DA" building="DA" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="0" minute="30" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="RR" building="RR" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+        <Goals>
+            <Order>2</Order>
+            <Destination description="DB" building="DB" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="0" minute="30" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="RR" building="RR" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+        <Goals>
+            <Order>2</Order>
+            <Destination description="DC" building="DC" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="0" minute="30" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>0</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="RR" building="RR" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="CD" building="CD" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+        <Goals>
+            <Order>2</Order>
+            <Destination description="DA" building="DA" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="0" minute="30" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="CD" building="CD" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+        <Goals>
+            <Order>2</Order>
+            <Destination description="DB" building="DB" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="0" minute="30" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="CD" building="CD" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+        <Goals>
+            <Order>2</Order>
+            <Destination description="DC" building="DC" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="0" minute="30" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>0</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="CD" building="CD" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="CD" building="CD" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+        <Goals>
+            <Order>2</Order>
+            <Destination description="DA" building="DA" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="0" minute="30" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="CD" building="CD" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+        <Goals>
+            <Order>2</Order>
+            <Destination description="DB" building="DB" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="0" minute="30" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="CD" building="CD" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+        <Goals>
+            <Order>2</Order>
+            <Destination description="DC" building="DC" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="0" minute="30" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>0</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="CD" building="CD" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="RR" building="RR" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+        <Goals>
+            <Order>2</Order>
+            <Destination description="DA" building="DA" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="0" minute="30" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="RR" building="RR" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+        <Goals>
+            <Order>2</Order>
+            <Destination description="DB" building="DB" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="0" minute="30" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="RR" building="RR" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+        <Goals>
+            <Order>2</Order>
+            <Destination description="DC" building="DC" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="0" minute="30" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>0</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="RR" building="RR" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="DA" building="DA" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+        <Goals>
+            <Order>2</Order>
+            <Destination description="DA" building="DA" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="0" minute="30" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="DA" building="DA" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+        <Goals>
+            <Order>2</Order>
+            <Destination description="DB" building="DB" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="0" minute="30" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="DA" building="DA" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+        <Goals>
+            <Order>2</Order>
+            <Destination description="DC" building="DC" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="0" minute="30" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>0</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="DA" building="DA" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="DB" building="DB" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+        <Goals>
+            <Order>2</Order>
+            <Destination description="DA" building="DA" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="0" minute="30" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="DB" building="DB" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+        <Goals>
+            <Order>2</Order>
+            <Destination description="DB" building="DB" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="0" minute="30" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="DB" building="DB" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+        <Goals>
+            <Order>2</Order>
+            <Destination description="DC" building="DC" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="0" minute="30" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>0</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="DB" building="DB" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="DC" building="DC" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+        <Goals>
+            <Order>2</Order>
+            <Destination description="DA" building="DA" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="0" minute="30" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="DC" building="DC" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+        <Goals>
+            <Order>2</Order>
+            <Destination description="DB" building="DB" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="0" minute="30" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>1</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="DC" building="DC" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+        <Goals>
+            <Order>2</Order>
+            <Destination description="DC" building="DC" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="0" minute="30" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+    <Profiles>
+        <Type>PAS</Type>
+        <Amount>0</Amount>
+        <Repetition>Sunday</Repetition>
+        <MaxWalkingDistance UpLimit="100.0" DownLimit="80.0"/>
+        <StartTime>
+            <Time weekDay="0" hour="7" minute="45" second="0"/>
+            <TimeRandomizer>
+                <UpLimit weekDay="0" hour="0" minute="30" second="0"/>
+                <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+            </TimeRandomizer>
+        </StartTime>
+        <Goals>
+            <Order>1</Order>
+            <Destination description="DC" building="DC" door="0"/>
+            <DepartureTimeLap>
+                <Time weekDay="0" hour="6" minute="0" second="0"/>
+                <TimeRandomizer>
+                    <UpLimit weekDay="0" hour="4" minute="0" second="0"/>
+                    <DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+                </TimeRandomizer>
+            </DepartureTimeLap>
+        </Goals>
+    </Profiles>
+</ConfigsXML>

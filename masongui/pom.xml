@@ -11,7 +11,7 @@
   <artifactId>masongui</artifactId>
   <name>${project.artifactId}</name>
 
-<build>
+  <build>
 	<resources>
         <resource>
             <directory>configuration</directory>

@@ -105,7 +105,7 @@ public class ParkingModel extends SimState implements ModelEngine{
 	        scheduleInitiators();
 	        
 	        if (setSlotsFreeOnInit){
-		        // Notify existence of Parking Places
+		        // Set all spot to free state
 		        for (SlotCurrentState slotCurrentState : slots) {
 		        	slotCurrentState.setStatus(SlotStatusStates.AVAILABLE.getValue());
 				}
@@ -190,6 +190,13 @@ public class ParkingModel extends SimState implements ModelEngine{
 	    	
 	    	schedule.reset();
     		scheduleInitiators();
+	    	
+	    	if (setSlotsFreeOnInit){	// Set all spot to free state
+		        for (SlotCurrentState slotCurrentState : slots) {
+		        	slotCurrentState.setStatus(SlotStatusStates.AVAILABLE.getValue());
+				}
+	        }
+	    	
     	}while(true);
     	finish();
     	if (!cancelled){
