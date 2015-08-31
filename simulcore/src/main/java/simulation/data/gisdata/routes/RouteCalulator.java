@@ -59,7 +59,7 @@ public abstract class RouteCalulator extends WebRequester<RouteResponse>{
 			return simulRoute;
 		}
 		catch(Exception e){
-			System.out.println("Problems getting route information "+ responseString +" !!! Exception: " + e.getMessage());
+			System.err.println("Problems getting route information "+ responseString +" !!! Exception: " + e.getMessage());
 			return null;
 		}
 	}

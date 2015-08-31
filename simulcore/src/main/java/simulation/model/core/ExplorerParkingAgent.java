@@ -79,7 +79,7 @@ public class ExplorerParkingAgent extends ParkingAgent {
 				if (pathToDestination == null){	// Communication error
 					stop();
 					parkingModel.notifyAgentChange(new AgentChangeNotification(ParkingActions.AGENT_LEAVING, this.clone()));
-					System.out.println("Error getting route!!!!!");
+					parkingModel.notifySimpleError(ParkingAgent.ERROR_GETTING_ROUTE);
 					parkingAgentState = ParkingAgentStates.Leaving;
 					break;
 				}
@@ -136,7 +136,7 @@ public class ExplorerParkingAgent extends ParkingAgent {
 						if (pathToDestination == null){	// Communication error
 							stop();
 							parkingModel.notifyAgentChange(new AgentChangeNotification(ParkingActions.AGENT_LEAVING, this.clone()));
-							System.out.println("Error getting route!!!!!");
+							parkingModel.notifySimpleError(ParkingAgent.ERROR_GETTING_ROUTE);
 							parkingAgentState = ParkingAgentStates.Leaving;
 							break;
 						}
@@ -178,7 +178,7 @@ public class ExplorerParkingAgent extends ParkingAgent {
 								if (pathToDestination == null){	// Communication error
 									stop();
 									parkingModel.notifyAgentChange(new AgentChangeNotification(ParkingActions.AGENT_LEAVING, this.clone()));
-									System.out.println("Error getting route!!!!!");
+									parkingModel.notifySimpleError(ParkingAgent.ERROR_GETTING_ROUTE);
 									parkingAgentState = ParkingAgentStates.Leaving;
 									break;
 								}
@@ -203,7 +203,7 @@ public class ExplorerParkingAgent extends ParkingAgent {
 					if (pathToDestination == null){	// Communication error
 						stop();
 						parkingModel.notifyAgentChange(new AgentChangeNotification(ParkingActions.AGENT_LEAVING, this.clone()));
-						System.out.println("Error getting route!!!!!");
+						parkingModel.notifySimpleError(ParkingAgent.ERROR_GETTING_ROUTE);
 						parkingAgentState = ParkingAgentStates.Leaving;
 						break;
 					}
@@ -212,7 +212,7 @@ public class ExplorerParkingAgent extends ParkingAgent {
 				else{
 					stop();
 					parkingModel.notifyAgentChange(new AgentChangeNotification(ParkingActions.AGENT_LEAVING, this.clone()));
-					System.out.println("UPPPPPPSSSS No parking found!!!!!");
+					parkingModel.notifySimpleError(ParkingAgent.NO_PARKING_FOUND);
 					break;
 				}
 			}
@@ -241,7 +241,7 @@ public class ExplorerParkingAgent extends ParkingAgent {
 				if (pathToDestination == null){	// Communication error
 					stop();
 					parkingModel.notifyAgentChange(new AgentChangeNotification(ParkingActions.AGENT_LEAVING, this.clone()));
-					System.out.println("Error getting route!!!!!");
+					parkingModel.notifySimpleError(ParkingAgent.ERROR_GETTING_ROUTE);
 					parkingAgentState = ParkingAgentStates.Leaving;
 					break;
 				}

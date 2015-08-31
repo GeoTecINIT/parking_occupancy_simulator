@@ -1,0 +1,83 @@
+<Master>
+	<ByCarProportion>0.6</ByCarProportion>
+	<MasterProfiles>
+		<Name>PDI</Name>
+		<Schedules>
+			<StartTime>
+				<Time weekDay="0" hour="8" minute="0" second="0"/>
+				<TimeRandomizer>
+					<UpLimit weekDay="0" hour="3" minute="0" second="0"/>
+					<DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+				</TimeRandomizer>
+			</StartTime>
+			<FacultyGoal>
+				<DepartureTimeLap>
+					<Time weekDay="0" hour="3" minute="0" second="0"/>
+					<TimeRandomizer>
+						<UpLimit weekDay="0" hour="3" minute="0" second="0"/>
+						<DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+					</TimeRandomizer>
+				</DepartureTimeLap>
+			</FacultyGoal>
+		</Schedules>
+		<Schedules>
+			<StartTime>
+				<Time weekDay="0" hour="8" minute="0" second="0"/>
+				<TimeRandomizer>
+					<UpLimit weekDay="0" hour="3" minute="0" second="0"/>
+					<DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+				</TimeRandomizer>
+			</StartTime>
+			<FacultyGoal>
+				<DepartureTimeLap>
+					<Time weekDay="0" hour="3" minute="0" second="0"/>
+					<TimeRandomizer>
+						<UpLimit weekDay="0" hour="3" minute="0" second="0"/>
+						<DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+					</TimeRandomizer>
+				</DepartureTimeLap>
+			</FacultyGoal>
+			<SportGoal>
+				<DepartureTimeLap>
+					<Time weekDay="0" hour="0" minute="30" second="0"/>
+					<TimeRandomizer>
+						<UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+						<DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+					</TimeRandomizer>
+				</DepartureTimeLap>
+			</SportGoal>
+		</Schedules>
+		<!--Edifici Investigació I. Mòdul I:11-->
+		<Faculties Name="NA" Amount="11"/>
+		<!--Escola Superior de Tecnologia i Ciències Experimentals:498-->
+		<Faculties Name="TC" Amount="125"/>
+		<Faculties Name="TD" Amount="125"/>
+		<Faculties Name="TI" Amount="124"/>
+		<Faculties Name="TT" Amount="124"/>
+		<!--Facultat de Ciències de la Salut:278-->
+		<Faculties Name="HD" Amount="139"/>
+		<Faculties Name="MI" Amount="139"/>
+		<!--Facultat de Ciències Humanes i Socials:361-->
+		<Faculties Name="HC" Amount="180"/>
+		<Faculties Name="HD" Amount="181"/>
+		<!--Facultat de Ciències Jurídiques i Econòmiques:264-->
+		<Faculties Name="JA" Amount="132"/>
+		<Faculties Name="JC" Amount="132"/>
+		<!--Edifici de Rectorat i Serveis Centrals:1-->
+		<Faculties Name="RR" Amount="1"/>
+		<!--Espaitec:1000-->
+		<Faculties Name="UA" Amount="400"/>
+		<Faculties Name="UB" Amount="600"/>
+
+		<!--BIBLIOTECA, CAPACIDAD TOTAL DE: 2000 PUESTOS-->
+		<Library Name="CD" Amount="0"/>
+
+		<!--VALORES DE USO DIARIO DE CADA INSTALACION DEPORTIVA POR PDI, considerando 24 días de uso al mes-->
+		<!--Zona Raquetes, TOTAL MENSUAL: 204-->
+		<Sports Name="DA" Amount="9" />
+		<!--Pavelló Poliesportiu, TOTAL MENSUAL: 457-->
+		<Sports Name="DB" Amount="19" />
+		<!--Piscina Coberta y Installacions Aire Lliure, TOTAL MENSUAL: 624 + 201-->
+		<Sports Name="DC" Amount="34" />
+	</MasterProfiles>
+</Master>

@@ -9,6 +9,7 @@ import simulation.model.wrapping.MasonModelController;
 
 public class MasonModelWebSController extends MasonModelController{
 	private MapUpdater mapUpdater = null;
+	private CO2Updater cO2Updater = null;
 	
 	private boolean reloadOnRun = false;
 
@@ -39,6 +40,10 @@ public class MasonModelWebSController extends MasonModelController{
 	public SlotListDetails<SlotClientState> getMapUpdates(long requestedTime){
 		return mapUpdater.getUpdates(requestedTime);
 	}
+	
+	public CO2Indicators getCO2Indicators() {
+		return cO2Updater.getCO2Indicators();
+	}
 
 	@Override
 	protected void setupUpdaters() {
@@ -56,6 +61,10 @@ public class MasonModelWebSController extends MasonModelController{
 		if (useWebServ){
 			runner.addSlotsUpdater(new WebServiceUpdater());
 		}
+		
+		cO2Updater = CO2Updater.getInstance();
+		parkingModel.addGlobalUpdater(cO2Updater.getGlobalCO2Updater());
+		runner.addAgentsUpdater(cO2Updater.getAgentCO2Updater());
 	}
 	
 	@Override

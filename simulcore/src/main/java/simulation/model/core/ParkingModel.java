@@ -360,6 +360,13 @@ public class ParkingModel extends SimState implements ModelEngine{
 	public void setCanceledFlag() {
 		cancelled  = true;
 	}
+	
+	// -----------------------------------
+	// Utilities 
+	
+	public void notifySimpleError(String msg){
+		System.err.println(msg);
+	}
 
 	// ============================================================
 	// NOTIFICATIONS (TO UPDATERS)

@@ -130,6 +130,19 @@ public class SimulatorService {
 	     }
 	}
     
+    @GET @Path("getco2")
+    @Produces(MediaType.APPLICATION_JSON)
+	public CO2Indicators getCO2() {
+    	try{
+    		MasonModelWebSController controller = MasonModelWebSController.getInstance();
+    		return controller.getCO2Indicators();
+		 }
+		 catch(Exception e){
+			 logger.error("Problems!!! Exception: " + e.getMessage());
+			 return new CO2Indicators();
+	     }
+	}
+    
     @GET @Path("test")
     @Produces(MediaType.APPLICATION_JSON)
 	public String test() {

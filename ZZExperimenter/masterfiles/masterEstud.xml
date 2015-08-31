@@ -1,0 +1,175 @@
+<Master>
+	<ByCarProportion>0.1</ByCarProportion>
+	<MasterProfiles>
+		<Name>Estudiante</Name>
+		<Schedules>
+			<StartTime>
+				<Time weekDay="0" hour="7" minute="30" second="0"/>
+				<TimeRandomizer>
+					<UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+					<DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+				</TimeRandomizer>
+			</StartTime>
+			<FacultyGoal>
+				<DepartureTimeLap>
+					<Time weekDay="0" hour="3" minute="0" second="0"/>
+					<TimeRandomizer>
+						<UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+						<DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+					</TimeRandomizer>
+				</DepartureTimeLap>
+			</FacultyGoal>
+		</Schedules>
+		<Schedules>
+			<StartTime>
+				<Time weekDay="0" hour="13" minute="0" second="0"/>
+				<TimeRandomizer>
+					<UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+					<DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+				</TimeRandomizer>
+			</StartTime>
+			<FacultyGoal>
+				<DepartureTimeLap>
+					<Time weekDay="0" hour="3" minute="0" second="0"/>
+					<TimeRandomizer>
+						<UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+						<DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+					</TimeRandomizer>
+				</DepartureTimeLap>
+			</FacultyGoal>
+		</Schedules>
+		<Schedules>
+			<StartTime>
+				<Time weekDay="0" hour="7" minute="30" second="0"/>
+				<TimeRandomizer>
+					<UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+					<DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+				</TimeRandomizer>
+			</StartTime>
+			<FacultyGoal>
+				<DepartureTimeLap>
+					<Time weekDay="0" hour="3" minute="0" second="0"/>
+					<TimeRandomizer>
+						<UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+						<DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+					</TimeRandomizer>
+				</DepartureTimeLap>
+			</FacultyGoal>
+			<LibraryGoal>
+				<DepartureTimeLap>
+					<Time weekDay="0" hour="2" minute="0" second="0"/>
+					<TimeRandomizer>
+						<UpLimit weekDay="0" hour="2" minute="30" second="0"/>
+						<DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+					</TimeRandomizer>
+				</DepartureTimeLap>
+			</LibraryGoal>
+		</Schedules>
+		<Schedules>
+			<StartTime>
+				<Time weekDay="0" hour="13" minute="0" second="0"/>
+				<TimeRandomizer>
+					<UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+					<DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+				</TimeRandomizer>
+			</StartTime>
+			<FacultyGoal>
+				<DepartureTimeLap>
+					<Time weekDay="0" hour="3" minute="0" second="0"/>
+					<TimeRandomizer>
+						<UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+						<DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+					</TimeRandomizer>
+				</DepartureTimeLap>
+			</FacultyGoal>
+			<LibraryGoal>
+				<DepartureTimeLap>
+					<Time weekDay="0" hour="2" minute="0" second="0"/>
+					<TimeRandomizer>
+						<UpLimit weekDay="0" hour="2" minute="30" second="0"/>
+						<DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+					</TimeRandomizer>
+				</DepartureTimeLap>
+			</LibraryGoal>
+		</Schedules>
+		<Schedules>
+			<StartTime>
+				<Time weekDay="0" hour="7" minute="30" second="0"/>
+				<TimeRandomizer>
+					<UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+					<DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+				</TimeRandomizer>
+			</StartTime>
+			<FacultyGoal>
+				<DepartureTimeLap>
+					<Time weekDay="0" hour="3" minute="0" second="0"/>
+					<TimeRandomizer>
+						<UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+						<DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+					</TimeRandomizer>
+				</DepartureTimeLap>
+			</FacultyGoal>
+			<SportGoal>
+				<DepartureTimeLap>
+					<Time weekDay="0" hour="0" minute="30" second="0"/>
+					<TimeRandomizer>
+						<UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+						<DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+					</TimeRandomizer>
+				</DepartureTimeLap>
+			</SportGoal>
+		</Schedules>
+		<Schedules>
+			<StartTime>
+				<Time weekDay="0" hour="13" minute="0" second="0"/>
+				<TimeRandomizer>
+					<UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+					<DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+				</TimeRandomizer>
+			</StartTime>
+			<FacultyGoal>
+				<DepartureTimeLap>
+					<Time weekDay="0" hour="3" minute="0" second="0"/>
+					<TimeRandomizer>
+						<UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+						<DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+					</TimeRandomizer>
+				</DepartureTimeLap>
+			</FacultyGoal>
+			<SportGoal>
+				<DepartureTimeLap>
+					<Time weekDay="0" hour="0" minute="30" second="0"/>
+					<TimeRandomizer>
+						<UpLimit weekDay="0" hour="1" minute="30" second="0"/>
+						<DownLimit weekDay="0" hour="0" minute="0" second="0"/>
+					</TimeRandomizer>
+				</DepartureTimeLap>
+			</SportGoal>
+		</Schedules>
+		<!--FACULTAT DE CIÈNCIES JURÍDIQUES I ECONÒMIQUES, TOTAL PARA LA FACULTAD:3690-->
+		<Faculties Name="JA" Amount="1845"/>
+		<Faculties Name="JC" Amount="1845"/>
+		<!--FACULTAT DE CIÈNCIES HUMANES I SOCIALS, TOTAL PARA LA FACULTAD:4074-->
+		<Faculties Name="HC" Amount="2037"/>
+		<Faculties Name="HD" Amount="2037"/>
+		<!--ESCOLA SUPERIOR DE TECNOLOGIA I CIÈNCIES EXPERIMENTALS, TOTAL PARA LA FACULTAD:2963-->
+		<Faculties Name="TC" Amount="741"/>
+		<Faculties Name="TD" Amount="741"/>
+		<Faculties Name="TI" Amount="741"/>
+		<Faculties Name="TT" Amount="741"/>
+		<!--FACULTAT DE CIÈNCIES DE LA SALUT, TOTAL PARA LA FACULTAD:1316-->
+		<Faculties Name="HD" Amount="658"/>
+		<Faculties Name="MI" Amount="658"/>
+
+		<!--BIBLIOTECA, CAPACIDAD TOTAL DE: 2000 PUESTOS-->
+		<Library Name="CD" Amount="1500"/>
+
+		<!--VALORES DE USO DIARIO DE CADA INSTALACION DEPORTIVA POR ESTUDIANTES, considerando 24 días de uso al mes-->
+		<!--Zona Raquetes, TOTAL MENSUAL: 1692-->
+		<Sports Name="DA" Amount="70" />
+		<!--Pavelló Poliesportiu, TOTAL MENSUAL: 9076-->
+		<Sports Name="DB" Amount="378" />
+		<!--Piscina Coberta y Installacions Aire Lliure, TOTAL MENSUAL: 3335 + 3458-->
+		<Sports Name="DC" Amount="283" />
+	</MasterProfiles>
+</Master>

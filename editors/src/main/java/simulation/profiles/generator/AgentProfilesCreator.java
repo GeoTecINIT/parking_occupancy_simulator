@@ -91,13 +91,16 @@ public class AgentProfilesCreator
 	
     public static void main( String[] args ) throws Exception
     {
-    	String masterXMLPath = "master.xml";
-    	String agentXMLPath = "agents.xml";
+    	String masterXMLPath = "D:\\master.xml";
+    	String agentXMLPath = "D:\\agents.xml";
     	double globalPercentage = 1;
     	
-    	if (args.length > 2) {
+    	if (args.length > 1) {
     		masterXMLPath = args[0];
     		agentXMLPath = args[1];
+    	}
+    	
+    	if (args.length > 2) {
     		globalPercentage = Double.parseDouble(args[2]);
     	}
     	

@@ -8,19 +8,15 @@ import java.util.List;
 
 import javax.xml.bind.JAXBException;
 
-import org.apache.commons.math3.stat.descriptive.SummaryStatistics;
-
 import simulation.common.globals.BuildingEntrance;
 import simulation.common.globals.RandomGenerator;
 import simulation.common.globals.SlotData;
 import simulation.data.configs.common.SlotsDataLoader;
-import simulation.data.gisdata.places.Entrances;
 import simulation.data.gisdata.places.EntrancesGetter;
 import simulation.data.gisdata.routes.CarRouteCalulator;
 import simulation.data.gisdata.routes.PedestrianRouteCalulator;
 import simulation.data.gisdata.routes.RouteCalulator;
 import simulation.model.support.EntrancePoint;
-import simulation.model.support.SimulRoute;
 import smartparking.assigner.generation.screquests.SmartCampusEntrances;
 
 import com.esri.core.geometry.Point;

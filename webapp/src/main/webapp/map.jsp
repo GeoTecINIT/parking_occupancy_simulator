@@ -30,6 +30,16 @@
 			border:1px solid #000;
 			text-align:center;
 		}
+	.fixed2{
+			position:fixed;
+			top:0px;
+			right:250px;
+			width:500px;
+			z-index:1000;
+			background-color:#FFF;
+			border:1px solid #000;
+			text-align:center;
+		}
   </style>
   <!-- ================================================================= -->
   <script src="common.js"></script>
@@ -48,13 +58,16 @@
 	var hashMap = {};
 	var count = 0;
 	var timer;
+	var co2timer;
 	var map;
 	var layer;
 	var objectIds;
 	var UPDATE_TIME = 2000;
+	var CO2_UPDATE_TIME = 1000;
 	var SAFE_AMOUNT = 1000;
 	var FEATURES_URL = "http://smartcampus.sg.uji.es:6080/arcgis/rest/services/SmartWays/SmartWaysParking/FeatureServer/0";
 	var SIMULATION_UPDATES_URL = "${pageContext.request.contextPath}/services/controller/getslotsupdate";
+	var CO2_UPDATES_URL = "${pageContext.request.contextPath}/services/controller/getco2";
 	
 	dojo.ready(init);
 	
@@ -103,6 +116,7 @@
 	
 	function updateEnd(){
 		timer = window.setInterval(update, UPDATE_TIME);
+		co2timer = window.setInterval(updateCO2, CO2_UPDATE_TIME);
 	}
 	
 	function update(){
@@ -137,11 +151,26 @@
 		);
 	}
 	
+	function updateCO2(){
+		window.clearInterval(co2timer);
+		var co2UpdateUrl = CO2_UPDATES_URL;
+		doAjax(co2UpdateUrl, 
+			function(data){
+				var text = "guidedCO2: " + data.guidedCO2 + " explorerCO2: " + data.explorerCO2 + " accumulatedGuidedCO2: " + data.accumulatedGuidedCO2 + " accumulatedExplorerCO2: " + data.accumulatedExplorerCO2;
+				$("#co2values").text(text);
+				co2timer = window.setInterval(updateCO2, CO2_UPDATE_TIME);
+			}, 
+			null,
+			function(){ }
+		);
+	}
+	
   </script>
 
 </head>
 <body class="claro">
   <div id="mapDiv"></div>
   <div id="debugtime" class="fixed"><strong>debug time</strong></div>
+  <div id="co2values" class="fixed2"><strong>CO2</strong></div>
 </body>
 </html>

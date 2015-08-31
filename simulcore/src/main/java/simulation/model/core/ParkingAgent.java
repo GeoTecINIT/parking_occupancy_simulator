@@ -14,6 +14,11 @@ import simulation.model.support.Timing;
 public abstract class ParkingAgent extends BasicParkingAgent implements Steppable{
 	protected static final long serialVersionUID = 1L;
 	
+	// ----- Common Strings -----
+	protected final static String NO_PARKING_FOUND = "UPPPPPPSSSS No parking found!!!!!";
+	protected final static String ERROR_GETTING_ROUTE = "Error getting route!!!!!";
+	// --------------------------
+	
 	protected Timing startingTime;
 	protected List<ParkingGoal> goals;
 	protected int currentSchedule;
