@@ -156,8 +156,8 @@
 		var co2UpdateUrl = CO2_UPDATES_URL;
 		doAjax(co2UpdateUrl, 
 			function(data){
-				var text = "guidedCO2: " + data.guidedCO2 + " explorerCO2: " + data.explorerCO2 + " accumulatedGuidedCO2: " + data.accumulatedGuidedCO2 + " accumulatedExplorerCO2: " + data.accumulatedExplorerCO2;
-				$("#co2values").text(text);
+				var text = "guidedCO2: " + data.guidedCO2 + " explorerCO2: " + data.explorerCO2 + "<br>accumulatedGuidedCO2: " + data.accumulatedGuidedCO2 + " accumulatedExplorerCO2: " + data.accumulatedExplorerCO2 + "<br>simulTime: " + data.simulTime;
+				$("#co2values").html(text);
 				co2timer = window.setInterval(updateCO2, CO2_UPDATE_TIME);
 			}, 
 			null,

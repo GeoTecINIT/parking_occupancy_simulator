@@ -1,31 +1,54 @@
 package simulation.consumers.console;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import simulation.model.wrapping.StatisticNotification;
 import simulation.model.wrapping.StatisticsChangeUpdater;
 import static simulation.common.globals.SimulGlobalConstants.*;
 
 public class StatisticsConsoleUpdater extends StatisticsChangeUpdater {
+	
+	public static double mean(List<Double> values){
+		if (values.size() == 0) return 0;
+		double sum = 0;
+		for (Double value : values) {
+			sum += value;
+		}
+		return (sum / values.size());
+	}
+	
+	public static double variance(List<Double> values){
+		if (values.size() == 0) return 0;
+		double meanValue = mean(values);
+		double sum = 0;
+		for (Double value : values) {
+			sum += ((value - meanValue) * (value - meanValue));
+		}
+		if (values.size() == 1) return sum;
+		return (sum / (values.size() - 1));
+	}
+	
+	
 	private int trickedCount;
-	private int guidedCount;
-	private double sumDistanceGuided;
-	private int explorerCount;
-	private double sumDistanceExplorer;
+	private List<Double> guidedDistances;
+	private List<Double> explorerDistances;
 	
 	public StatisticsConsoleUpdater() {
 		super();
+		guidedDistances = new ArrayList<Double>();
+		explorerDistances = new ArrayList<Double>();
 		reset();
 	}
-
+	
 	@Override
 	protected synchronized void doUpdate(StatisticNotification arg) {
 		switch (arg.getKey()) {
-		case DISTANCE_EXPLORER_STATISTICS_KEY:
-			explorerCount++;
-			sumDistanceExplorer += arg.getValue();
-			break;
 		case DISTANCE_GUIDED_STATISTICS_KEY:
-			guidedCount++;
-			sumDistanceGuided += arg.getValue();
+			guidedDistances.add(arg.getValue());
+			break;
+		case DISTANCE_EXPLORER_STATISTICS_KEY:
+			explorerDistances.add(arg.getValue());
 			break;
 		case TRIKED_STATISTICS_KEY:
 			trickedCount++;
@@ -35,23 +58,37 @@ public class StatisticsConsoleUpdater extends StatisticsChangeUpdater {
 		}
 	}
 	
-	public int getTrickedCount(){
+	public synchronized List<Double> getGuidedDistances() {
+		return new ArrayList<Double>(guidedDistances);
+	}
+
+	public synchronized List<Double> getExplorerDistances() {
+		return new ArrayList<Double>(explorerDistances);
+	}
+
+	public synchronized int getTrickedCount(){
 		return trickedCount;
 	}
 	
-	public synchronized double getGuidedAverageDistance(){
-		return (guidedCount != 0 ) ? sumDistanceGuided / guidedCount : 0;
+	public synchronized double getGuidedDistanceAverage(){
+		return mean(guidedDistances);
 	}
 	
-	public synchronized double getExplorerAverageDistance(){
-		return (explorerCount != 0) ? sumDistanceExplorer / explorerCount : 0;
+	public synchronized double getExplorerDistanceAverage(){
+		return mean(explorerDistances);
+	}
+	
+	public synchronized double getGuidedDistanceVariance(){
+		return variance(guidedDistances);
+	}
+	
+	public synchronized double getExplorerDistanceVariance(){
+		return variance(explorerDistances);
 	}
 	
 	public synchronized void reset(){
 		trickedCount = 0;
-		guidedCount = 0;
-		sumDistanceGuided = 0;
-		explorerCount = 0;
-		sumDistanceExplorer = 0;
+		guidedDistances.clear();
+		explorerDistances.clear();
 	}
 }

@@ -13,10 +13,28 @@ import simulation.model.wrapping.ModelNotification;
 import simulation.model.wrapping.ModelNotificationType;
 
 public class CO2Updater{
+	private int guidedCount = 0;
+	private int explorerCount = 0;
 	private int guidedSteps = 0;
 	private int explorerSteps = 0;
 	private int accumulatedGuidedSteps = 0;
 	private int accumulatedExplorerSteps = 0;
+
+	public synchronized int getGuidedCount() {
+		return guidedCount;
+	}
+
+	public synchronized void setGuidedCount(int guidedCount) {
+		this.guidedCount = guidedCount;
+	}
+
+	public synchronized int getExplorerCount() {
+		return explorerCount;
+	}
+
+	public synchronized void setExplorerCount(int explorerCount) {
+		this.explorerCount = explorerCount;
+	}
 
 	private synchronized int getGuidedSteps() {
 		return guidedSteps;
@@ -59,17 +77,19 @@ public class CO2Updater{
 				(int)(cO2GramsPerStep() * getGuidedSteps()),
 				(int)(cO2GramsPerStep() * getExplorerSteps()),
 				(int)(cO2GramsPerStep() * getAccumulatedGuidedSteps()),
-				(int)(cO2GramsPerStep() * getAccumulatedExplorerSteps())
+				(int)(cO2GramsPerStep() * getAccumulatedExplorerSteps()),
+				""
 		);
 		return indicators;
 	}
 	
 	private synchronized void updateAccumulates(){
-		System.out.println(getAccumulatedGuidedSteps() + ", " + getGuidedSteps());
+		setGuidedSteps(getGuidedCount());
+		setExplorerSteps(getExplorerCount());
 		setAccumulatedGuidedSteps(getAccumulatedGuidedSteps() + getGuidedSteps());
 		setAccumulatedExplorerSteps(getAccumulatedExplorerSteps() + getExplorerSteps());
-		setGuidedSteps(0);
-		setExplorerSteps(0);
+		setGuidedCount(0);
+		setExplorerCount(0);
 	}
 	
 	public class AgentCO2Updater extends AgentsChangeUpdater {
@@ -80,10 +100,10 @@ public class CO2Updater{
 			switch (unit.getAction()) {
 			case AGENT_MOVING:
 				if (agentData.getDescription().equals(EXPLORER_AGENT_DESCRIPTION)){
-					setExplorerSteps(getExplorerSteps() + 1);;
+					setExplorerCount(getExplorerCount() + 1);;
 				}
 				else{
-					setGuidedSteps(getGuidedSteps() + 1);
+					setGuidedCount(getGuidedCount() + 1);
 				}
 				break;
 			case AGENT_ADDING:
@@ -95,7 +115,7 @@ public class CO2Updater{
 			case AGENT_TRICKED:
 				break;
 			default:
-				System.err.println("ERRRRRRROOOOOORRRRR");
+				Assert.fail("AgentCO2Updater");
 				break;
 			}
 		}

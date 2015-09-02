@@ -16,17 +16,20 @@ public class CO2Indicators {
 	private int accumulatedGuidedCO2;
 	@XmlElement
 	private int accumulatedExplorerCO2;
+	@XmlElement
+	private String simulTime;
 	
 	public CO2Indicators(){
-		this(0, 0, 0, 0);
+		this(0, 0, 0, 0, "");
 	}
 	
-	public CO2Indicators(int guidedCO2, int explorerCO2, int accumulatedGuidedCO2, int accumulatedExplorerCO2) {
+	public CO2Indicators(int guidedCO2, int explorerCO2, int accumulatedGuidedCO2, int accumulatedExplorerCO2, String simulTime) {
 		super();
 		this.guidedCO2 = guidedCO2;
 		this.explorerCO2 = explorerCO2;
 		this.accumulatedGuidedCO2 = accumulatedGuidedCO2;
 		this.accumulatedExplorerCO2 = accumulatedExplorerCO2;
+		this.simulTime = simulTime;
 	}
 
 	public int getGuidedCO2() {
@@ -43,5 +46,9 @@ public class CO2Indicators {
 
 	public int getAccumulatedExplorerCO2() {
 		return accumulatedExplorerCO2;
+	}
+
+	public String getSimulTime() {
+		return simulTime;
 	}
 }

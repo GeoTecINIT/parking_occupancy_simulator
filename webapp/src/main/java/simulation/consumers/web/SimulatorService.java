@@ -135,7 +135,13 @@ public class SimulatorService {
 	public CO2Indicators getCO2() {
     	try{
     		MasonModelWebSController controller = MasonModelWebSController.getInstance();
-    		return controller.getCO2Indicators();
+    		CO2Indicators ind = controller.getCO2Indicators();
+    		CO2Indicators indicators = new CO2Indicators(
+    				ind.getGuidedCO2(), ind.getExplorerCO2(),
+    				ind.getAccumulatedGuidedCO2(), ind.getAccumulatedExplorerCO2(),
+    				controller.getSimulTime().toString()
+    		);
+    		return indicators;
 		 }
 		 catch(Exception e){
 			 logger.error("Problems!!! Exception: " + e.getMessage());
