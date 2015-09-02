@@ -1,28 +1,20 @@
 package simulation.consumers.console;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Observable;
 import java.util.Observer;
 
 import junit.framework.Assert;
+import simulation.consumers.console.StatisticsConsoleUpdater.UpdaterValues;
 import simulation.model.wrapping.ModelNotification;
 import simulation.model.wrapping.ModelNotificationType;
 
 public class ConsoleModelGlobalUpdater implements Observer{
-	private StatisticsConsoleUpdater statisticsConsoleUpdater;  
-	
-	private int trickedCount = 0;
-	private int runsWithGuided = 0;
-	private int runsWithExplorer = 0;
-	
-	private List<Double> guidedDistances;
-	private List<Double> explorerDistances;
+	private StatisticsConsoleUpdater statisticsConsoleUpdater;
+	private UpdaterValues cumulUpdaterValues = null;
 	
 	public ConsoleModelGlobalUpdater(StatisticsConsoleUpdater statisticsConsoleUpdater){
 		this.statisticsConsoleUpdater = statisticsConsoleUpdater;
-		this.guidedDistances = new ArrayList<Double>();
-		this.explorerDistances = new ArrayList<Double>();
+		this.cumulUpdaterValues = new UpdaterValues();
 	}
 	
 	@Override
@@ -36,51 +28,25 @@ public class ConsoleModelGlobalUpdater implements Observer{
 		case ITERATION:
 			int iterNumber = (int)((ModelNotification) arg).getValue();
 			System.out.println("ITERATION " + iterNumber);
+			
+			UpdaterValues values = statisticsConsoleUpdater.getUpdaterValues();
 
-			trickedCount += statisticsConsoleUpdater.getTrickedCount();
-			System.out.println("Tricked Amount\t" + statisticsConsoleUpdater.getTrickedCount());
+			System.out.println("Tricked Amount\t\t" + values.getTrickedStats().getN());
+			System.out.println("Guided Distance Mean\t\t" + values.getGuidedStats().getMean());
+			System.out.println("Explorer Distance Mean\t\t" + values.getExplorerStats().getMean());
 			
-			if (statisticsConsoleUpdater.getGuidedDistanceAverage() != 0) {
-				System.out.println("Guided Distance Mean\t" + statisticsConsoleUpdater.getGuidedDistanceAverage());
-				System.out.println("Guided Distance Variance\t" + statisticsConsoleUpdater.getGuidedDistanceVariance());
-				runsWithGuided++; 
-			}
-			else{
-				System.out.println("No guided Agents In This Run");
-			}
-			if (statisticsConsoleUpdater.getExplorerDistanceAverage() != 0) {
-				System.out.println("Explorer Distance Mean\t" + statisticsConsoleUpdater.getExplorerDistanceAverage());
-				System.out.println("Explorer Distance Variance\t" + statisticsConsoleUpdater.getExplorerDistanceVariance());
-				runsWithExplorer++;
-			}
-			else{
-				System.out.println("No Explorer Agents In This Run");
-			}
-			
-			guidedDistances.addAll(statisticsConsoleUpdater.getGuidedDistances());
-			explorerDistances.addAll(statisticsConsoleUpdater.getExplorerDistances());
+			cumulUpdaterValues.addAll(values);
 			statisticsConsoleUpdater.reset();			
 			break;
 			
 		case FINISHED:
 			int runsAmount = (int)((ModelNotification) arg).getValue();
-			System.out.println("FINISHED AFTER ITERATIONS " + runsAmount);
+			System.out.println("FINISHED AFTER " + runsAmount + " ITERATIONS");
 			
-			System.out.println("Avg Tricked Amount\t" + trickedCount/runsAmount);
-			if (runsWithGuided != 0){
-				System.out.println("Final Guided Distance Mean\t" + StatisticsConsoleUpdater.mean(guidedDistances));
-				System.out.println("Final Guided Distance Variance\t" + StatisticsConsoleUpdater.variance(guidedDistances));
-			}
-			else{
-				System.out.println("No Runs With Guided Agents");
-			}
-			if (runsWithExplorer != 0){
-				System.out.println("Final Explorer Distance Mean\t" + StatisticsConsoleUpdater.mean(explorerDistances));
-				System.out.println("Final Explorer Distance Variance\t" + StatisticsConsoleUpdater.variance(explorerDistances));
-			}
-			else{
-				System.out.println("No Runs With Explorer Agents");
-			}
+			System.out.println("Avg Tricked Amount\t\t" + cumulUpdaterValues.getTrickedStats().getN()/runsAmount);
+			System.out.println("Final Guided Distance Mean\t\t" + cumulUpdaterValues.getGuidedStats().getMean());
+			System.out.println("Final Explorer Distance Mean\t\t" + cumulUpdaterValues.getExplorerStats().getMean());
+			
 			System.exit(0); //TODO Look for a better solution
 			break;
 			
