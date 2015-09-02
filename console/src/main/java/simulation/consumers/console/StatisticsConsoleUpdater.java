@@ -11,6 +11,9 @@ public class StatisticsConsoleUpdater extends StatisticsChangeUpdater {
 	
 	// Static Utility Methods
 	// -----------------------------------------------------
+	/**
+	 * Calculates the arithmetic mean for the given list of values.
+	 */
 	public static double mean(List<Double> values){
 		if (values.size() == 0) return 0;
 		double sum = 0;
@@ -89,6 +92,9 @@ public class StatisticsConsoleUpdater extends StatisticsChangeUpdater {
 		return variance(explorerDistances);
 	}
 	
+	/**
+	 * Clear all values stored for statistics keeping.
+	 */
 	public synchronized void reset(){
 		trickedCount = 0;
 		guidedDistances.clear();
