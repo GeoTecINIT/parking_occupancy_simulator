@@ -5,8 +5,9 @@ import java.util.List;
 import java.util.Observable;
 import java.util.Observer;
 
-import simulation.model.wrapping.*;
 import junit.framework.Assert;
+import simulation.model.wrapping.ModelNotification;
+import simulation.model.wrapping.ModelNotificationType;
 
 public class ConsoleModelGlobalUpdater implements Observer{
 	private StatisticsConsoleUpdater statisticsConsoleUpdater;  
