@@ -9,6 +9,8 @@ import static simulation.common.globals.SimulGlobalConstants.*;
 
 public class StatisticsConsoleUpdater extends StatisticsChangeUpdater {
 	
+	// Static Utility Methods
+	// -----------------------------------------------------
 	public static double mean(List<Double> values){
 		if (values.size() == 0) return 0;
 		double sum = 0;
@@ -29,6 +31,7 @@ public class StatisticsConsoleUpdater extends StatisticsChangeUpdater {
 		return (sum / (values.size() - 1));
 	}
 	
+	// -----------------------------------------------------
 	
 	private int trickedCount;
 	private List<Double> guidedDistances;
