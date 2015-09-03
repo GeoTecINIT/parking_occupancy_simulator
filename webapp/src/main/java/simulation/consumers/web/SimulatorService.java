@@ -132,11 +132,11 @@ public class SimulatorService {
     
     @GET @Path("getco2")
     @Produces(MediaType.APPLICATION_JSON)
-	public CO2Indicators getCO2() {
+	public ActivityIndicators getCO2() {
     	try{
     		MasonModelWebSController controller = MasonModelWebSController.getInstance();
-    		CO2Indicators ind = controller.getCO2Indicators();
-    		CO2Indicators indicators = new CO2Indicators(
+    		ActivityIndicators ind = controller.getCO2Indicators();
+    		ActivityIndicators indicators = new ActivityIndicators(
     				ind.getGuidedCO2(), ind.getExplorerCO2(),
     				ind.getAccumulatedGuidedCO2(), ind.getAccumulatedExplorerCO2(),
     				controller.getSimulTime().toString()
@@ -145,7 +145,7 @@ public class SimulatorService {
 		 }
 		 catch(Exception e){
 			 logger.error("Problems!!! Exception: " + e.getMessage());
-			 return new CO2Indicators();
+			 return new ActivityIndicators();
 	     }
 	}
     

@@ -10,4 +10,7 @@ public final class ConsoleGlobalConstants {
 	public static final String USE_SMART_PARKING_UPDATER_FIELD = "usesmartparkingupd";
 	
 
+	public static final String GUIDED_DISTANCES_FILE_NAME = "guideddistances.txt";
+	public static final String EXPLORER_DISTANCES_FILE_NAME = "explorerdistances.txt";
+
 }

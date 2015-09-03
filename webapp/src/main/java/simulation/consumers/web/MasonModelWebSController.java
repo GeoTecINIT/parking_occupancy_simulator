@@ -41,7 +41,7 @@ public class MasonModelWebSController extends MasonModelController{
 		return mapUpdater.getUpdates(requestedTime);
 	}
 	
-	public CO2Indicators getCO2Indicators() {
+	public ActivityIndicators getCO2Indicators() {
 		return cO2Updater.getCO2Indicators();
 	}
 

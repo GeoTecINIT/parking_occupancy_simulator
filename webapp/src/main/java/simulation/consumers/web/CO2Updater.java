@@ -72,8 +72,8 @@ public class CO2Updater{
 		return 0.15 * SIMULATION_CAR_SPEED;
 	}
 	
-	public CO2Indicators getCO2Indicators() {
-		CO2Indicators indicators = new CO2Indicators(
+	public ActivityIndicators getCO2Indicators() {
+		ActivityIndicators indicators = new ActivityIndicators(
 				(int)(cO2GramsPerStep() * getGuidedSteps()),
 				(int)(cO2GramsPerStep() * getExplorerSteps()),
 				(int)(cO2GramsPerStep() * getAccumulatedGuidedSteps()),

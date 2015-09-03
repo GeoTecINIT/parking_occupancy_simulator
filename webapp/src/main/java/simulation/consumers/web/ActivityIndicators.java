@@ -7,7 +7,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 
 @XmlRootElement
 @XmlAccessorType(XmlAccessType.FIELD)
-public class CO2Indicators {
+public class ActivityIndicators {
 	@XmlElement
 	private int guidedCO2;
 	@XmlElement
@@ -19,11 +19,11 @@ public class CO2Indicators {
 	@XmlElement
 	private String simulTime;
 	
-	public CO2Indicators(){
+	public ActivityIndicators(){
 		this(0, 0, 0, 0, "");
 	}
 	
-	public CO2Indicators(int guidedCO2, int explorerCO2, int accumulatedGuidedCO2, int accumulatedExplorerCO2, String simulTime) {
+	public ActivityIndicators(int guidedCO2, int explorerCO2, int accumulatedGuidedCO2, int accumulatedExplorerCO2, String simulTime) {
 		super();
 		this.guidedCO2 = guidedCO2;
 		this.explorerCO2 = explorerCO2;

@@ -10,6 +10,10 @@ SET GENERPROGOUTPUT=NUL
 SET MSGSOUTPUT=NUL
 SET SIMULOUTPUT=simuloutput.txt
 SET SIMULERROUTPUT=simulerroutput.txt
+SET GUIDEDDISTANCES=guideddistances.txt
+SET EXPLORERDISTANCES=explorerdistances.txt
+SET CUMULGUIDEDDISTANCES=cumulguideddist.txt
+SET CUMULEXPLORERDISTANCES=cumulexplorerdist.txt
 REM --------------------------------------------------
 
 ECHO Parameters (Description:Name:Values)
@@ -25,6 +29,14 @@ IF EXIST %SIMULOUTPUT% (
 IF EXIST %SIMULERROUTPUT% (
 	DEL %SIMULERROUTPUT%
 )
+IF EXIST %CUMULGUIDEDDISTANCES% (
+	DEL %CUMULGUIDEDDISTANCES%
+)
+cd. >%CUMULGUIDEDDISTANCES%
+IF EXIST %CUMULEXPLORERDISTANCES% (
+	DEL %CUMULEXPLORERDISTANCES%
+)
+cd. >%CUMULEXPLORERDISTANCES%
 
 ECHO -------------------------------------------------- >> %SIMULOUTPUT%
 FOR %%C IN (%BYCARPROPLIST%) DO (
@@ -34,10 +46,12 @@ FOR %%C IN (%BYCARPROPLIST%) DO (
 		ECHO Creating parameter file with GUIDEDPROP of %%G ... > %MSGSOUTPUT%
 		java -jar propfilemodifier.jar %EXPREPET% %%G > %GENERPROGOUTPUT%
 		ECHO Running simulator with BYCARPROP of %%C and GUIDEDPROP of %%G ...
-		ECHO -------------------------------------------------- >> %SIMULOUTPUT%
 		ECHO BYCARPROP = %%C, GUIDEDPROP = %%G >> %SIMULOUTPUT%
-		java -jar simulator.jar >> %SIMULOUTPUT% 2>> %SIMULERROUTPUT%
 		ECHO -------------------------------------------------- >> %SIMULOUTPUT%
+		java -jar simulator.jar >> %SIMULOUTPUT% 2>> %SIMULERROUTPUT%
+		ECHO Coping distances result files ... > %MSGSOUTPUT%
+		copy /b %CUMULGUIDEDDISTANCES%+%GUIDEDDISTANCES%=%CUMULGUIDEDDISTANCES% > %MSGSOUTPUT%
+		copy /b %CUMULEXPLORERDISTANCES%+%EXPLORERDISTANCES%=%CUMULEXPLORERDISTANCES% > %MSGSOUTPUT%
 	)
 )
 ECHO -------------------------------------------------- >> %SIMULOUTPUT%
