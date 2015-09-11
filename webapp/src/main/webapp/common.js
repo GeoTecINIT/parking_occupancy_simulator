@@ -43,3 +43,11 @@ function doAjaxP(url, funcionexito, funcionerror, funcionbeforeSend){
 		error: errorFunc
 	});
 }
+
+function drawChart(charDetails){
+	charDetails.chart.draw(charDetails.data, charDetails.options);
+}
+
+function pad(n) {
+    return (n < 10) ? ("0" + n) : n;
+}

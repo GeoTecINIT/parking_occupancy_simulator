@@ -1,0 +1,37 @@
+#clock{
+	width:150px;
+	padding:15px;
+	margin:5px auto 5px;
+	position:relative;
+}
+#clock:after{
+	content:'';
+	position:absolute;
+	width:140px;
+	height:10px;
+	border-radius:100%;
+	left:50%;
+	margin-left:-70px;
+	bottom:2px;
+	z-index:-1;
+}
+#clock .display{
+	text-align:center;
+	padding: 5px;
+	border-radius:6px;
+	position:relative;
+	height: 30px;
+	font-family: 'Orbitron', sans-serif;
+	font-size: 20px;
+}
+#clock.light{
+	background-color:#d3f3d3;
+	color:#272e38;
+}
+#clock.light:after{
+	box-shadow:0 4px 10px rgba(0,0,0,0.15);
+}
+#clock.light .display{
+	background-color:#b3f3b3;
+	box-shadow:0 1px 1px rgba(0,0,0,0.08) inset, 0 1px 1px #fafafa;
+}

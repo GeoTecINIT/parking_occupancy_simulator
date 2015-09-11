@@ -93,6 +93,10 @@ public class Timing implements Comparable<Timing>{
 	
 	@Override
 	public String toString() {
-		return "D:" + weekDay + " H:" + hour + " M:" + minute + " S:" + second;
+		return pad(weekDay) + ":" + pad(hour) + ":" + pad(minute) + ":" + pad(second);
+	}
+	
+	private String pad(int n) {
+	    return (n < 10) ? ("0" + String.valueOf(n)) : String.valueOf(n);
 	}
 }

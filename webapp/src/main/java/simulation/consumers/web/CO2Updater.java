@@ -143,25 +143,12 @@ public class CO2Updater{
 		}
 	}
 	
-	// SINGLETON implementation
-	
 	private AgentCO2Updater agentCO2Updater = new AgentCO2Updater();
 	private GlobalCO2Updater globalCO2Updater = new GlobalCO2Updater();
-
-	private static volatile CO2Updater instance = null;
 	
-	private CO2Updater(){}
-	 
-    public static CO2Updater getInstance() {
-        if (instance == null) {
-            synchronized (CO2Updater.class) {
-                if (instance == null) {
-                    instance = new CO2Updater();
-                }
-            }
-        }
-        return instance;
-    }
+	public CO2Updater(){
+		
+	}
     	
 	public AgentCO2Updater getAgentCO2Updater() {
 		return agentCO2Updater;

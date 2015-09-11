@@ -1,0 +1,17 @@
+.clickable {
+	cursor: pointer;
+	z-index:1000;
+}
+.expand {
+	width:100%;
+}
+.panel-heading span {
+	margin-top: -20px;
+	font-size: 15px;
+}
+.fixed{
+	position:fixed;
+	top:0px;
+	right:0px;
+	z-index:1000;
+}

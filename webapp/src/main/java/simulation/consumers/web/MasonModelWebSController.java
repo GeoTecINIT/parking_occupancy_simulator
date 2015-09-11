@@ -62,7 +62,7 @@ public class MasonModelWebSController extends MasonModelController{
 			runner.addSlotsUpdater(new WebServiceUpdater());
 		}
 		
-		cO2Updater = CO2Updater.getInstance();
+		cO2Updater = new CO2Updater();
 		parkingModel.addGlobalUpdater(cO2Updater.getGlobalCO2Updater());
 		runner.addAgentsUpdater(cO2Updater.getAgentCO2Updater());
 	}
