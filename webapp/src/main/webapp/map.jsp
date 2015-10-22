@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Create a Map</title>
+  <title>Parking Simulator</title>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <!-- ================================================================= -->
   <meta http-equiv="cache-control" content="max-age=0" />

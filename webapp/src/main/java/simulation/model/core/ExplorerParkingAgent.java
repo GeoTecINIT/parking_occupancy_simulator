@@ -92,6 +92,7 @@ public class ExplorerParkingAgent extends ParkingAgent {
 				// Heading to the chosen slot
 				if ((pathToDestination.isLast(currentPoint))){	
 					if (chosenSlot.getStatus() != SlotStatusStates.OCCUPIED.getValue()){
+						double distanceToSlot = pathToDestination.calculateDistance(currentPoint.getPoint(), chosenSlot.getPoint());
 						// Let's take it
 						alreadyChosen = false;
 						parkingModel.changeSlotStatus(chosenSlot, SlotStatusStates.OCCUPIED);
@@ -105,6 +106,7 @@ public class ExplorerParkingAgent extends ParkingAgent {
 						pathToDestination = null;
 						currentSchedule++;
 						parkingModel.notifyAgentChange(new AgentChangeNotification(ParkingActions.AGENT_PARKING, this.clone()));
+						acummulatedDistance += distanceToSlot;
 						break;
 					}
 					else{
@@ -168,6 +170,7 @@ public class ExplorerParkingAgent extends ParkingAgent {
 								pathToDestination = null;
 								currentSchedule++;
 								parkingModel.notifyAgentChange(new AgentChangeNotification(ParkingActions.AGENT_PARKING, this.clone()));
+								acummulatedDistance += distanceToSlot;
 								break;
 							}
 							else{

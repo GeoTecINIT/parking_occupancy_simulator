@@ -47,6 +47,9 @@ public class GeometricSlotChooser extends SlotChooser {
 			}
 			prevBuffer = currBuffer;
 		}
-		return chosen.getSlot();
+		if (chosen != null){
+			return chosen.getSlot();
+		}
+		return null;
 	}
 }

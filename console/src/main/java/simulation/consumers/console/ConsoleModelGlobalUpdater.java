@@ -41,14 +41,16 @@ public class ConsoleModelGlobalUpdater implements Observer{
 			
 		case ITERATION:
 			int iterNumber = (int)((ModelNotification) arg).getValue();
-			System.out.println("ITERATION " + iterNumber);
-			
 			UpdaterValues values = statisticsConsoleUpdater.getUpdaterValues();
-
-			System.out.println("Tricked Amount\t\t\t\t" + values.getTrickedStats().getN());
-			System.out.println("Guided Distance Mean\t\t" + String.format("%8.03f", values.getGuidedStats().getMean()) + "\t\tfor " + values.getGuidedStats().getN() + " agents");
-			System.out.println("Explorer Distance Mean\t\t" + String.format("%8.03f", values.getExplorerStats().getMean()) + "\t\tfor " + values.getExplorerStats().getN() + " agents");
-			System.out.println("--------------------------------------------");
+			
+			System.out.println(
+						iterNumber + "\t" + 
+						values.getTrickedStats().getN() + "\t" + 
+						String.format("%8.03f", values.getGuidedStats().getMean()) + "\t" + 
+						values.getGuidedStats().getN() + "\t" + 
+						String.format("%8.03f", values.getExplorerStats().getMean()) + "\t" + 
+						values.getExplorerStats().getN()
+			);
 			
 			cumulUpdaterValues.addAll(values);
 			statisticsConsoleUpdater.reset();			
@@ -56,11 +58,15 @@ public class ConsoleModelGlobalUpdater implements Observer{
 			
 		case FINISHED:
 			int runsAmount = (int)((ModelNotification) arg).getValue();
-			System.out.println("FINISHED AFTER " + runsAmount + " ITERATIONS");
 			
-			System.out.println("Avg Tricked Amount\t\t\t\t\t" + cumulUpdaterValues.getTrickedStats().getN()/runsAmount);
-			System.out.println("Final Guided Distance Mean\t\t\t" + String.format("%8.03f", cumulUpdaterValues.getGuidedStats().getMean()));
-			System.out.println("Final Explorer Distance Mean\t\t" + String.format("%8.03f", cumulUpdaterValues.getExplorerStats().getMean()));
+			System.out.println(
+					(runsAmount + 1) + "\t" + 			
+					(cumulUpdaterValues.getTrickedStats().getN()/runsAmount) + "\t" + 
+					String.format("%8.03f", cumulUpdaterValues.getGuidedStats().getMean()) + "\t" + 
+					0 + "\t" + 
+					String.format("%8.03f", cumulUpdaterValues.getExplorerStats().getMean()) + "\t" + 
+					0
+			);
 			
 
 			// Write all distance values to their files
