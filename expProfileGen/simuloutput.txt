@@ -1,0 +1,46 @@
+-------------------------------------------------- 
+-------------------------------------------------- 
+BYCARPROP = 0.05, GUIDEDPROP = 0.1 
+ITERATION 1
+Tricked Amount	2
+Guided Mean Distance	1767.0966348199945
+Explorer Mean Distance	2084.5065502183406
+FINISHED AFTER ITERATIONS 1
+Avg Tricked Amount	2
+Avg Guided Mean Distance	1767.0966348199945
+Avg Explorer Mean Distance	2084.5065502183406
+-------------------------------------------------- 
+-------------------------------------------------- 
+BYCARPROP = 0.05, GUIDEDPROP = 0.9 
+ITERATION 1
+Tricked Amount	1
+Guided Mean Distance	1843.998822152247
+Explorer Mean Distance	2539.478260869565
+FINISHED AFTER ITERATIONS 1
+Avg Tricked Amount	1
+Avg Guided Mean Distance	1843.998822152247
+Avg Explorer Mean Distance	2539.478260869565
+-------------------------------------------------- 
+-------------------------------------------------- 
+BYCARPROP = 0.1, GUIDEDPROP = 0.1 
+ITERATION 1
+Tricked Amount	4
+Guided Mean Distance	1639.3445839350627
+Explorer Mean Distance	1926.1128205128205
+FINISHED AFTER ITERATIONS 1
+Avg Tricked Amount	4
+Avg Guided Mean Distance	1639.3445839350627
+Avg Explorer Mean Distance	1926.1128205128205
+-------------------------------------------------- 
+-------------------------------------------------- 
+BYCARPROP = 0.1, GUIDEDPROP = 0.9 
+ITERATION 1
+Tricked Amount	1
+Guided Mean Distance	1682.0289819890208
+Explorer Mean Distance	1920.6
+FINISHED AFTER ITERATIONS 1
+Avg Tricked Amount	1
+Avg Guided Mean Distance	1682.0289819890208
+Avg Explorer Mean Distance	1920.6
+-------------------------------------------------- 
+-------------------------------------------------- 
